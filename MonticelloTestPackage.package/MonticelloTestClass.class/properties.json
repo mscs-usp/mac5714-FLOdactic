@@ -1,0 +1,14 @@
+{
+	"category" : "MonticelloTestPackage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MonticelloTestClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
