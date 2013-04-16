@@ -53,23 +53,32 @@ Original proposal from Professor Fábio:
 FLOdactic setup
 ===============
 
-1.- Execute this on the workspace to install filetree gem:
+1.- Execute this on the workspace to install filetree gem (Seaside/Squeak):
+```Smalltalk
 Installer ss3
     project: 'FileTree';
     install: 'ConfigurationOfFileTree'.
 ((Smalltalk at: #ConfigurationOfFileTree) project version: #'stable') load.
+```
 
 2.- Clone the github project and link it to a local Monticello package:
+```Bash
 git clone https://github.com/poo2013pos/FLOdactic.git
+```
 Then using the MonticelloBrowser Create a FLOdactic package and a filetree repository by selecting the FLOdactic folder that contains your cloned git repository
 
 3.- Reload the package on the local Seaside/Squeak:
-With the MonticelloBrowser
-- Find the package
-- Click Open
-With the Repository:filetree:///<path-to-FLOdactic>
-- Click Load
+* With the MonticelloBrowser
+ * Find the package
+ * Click Open
+* With the Repository:filetree:///<path-to-FLOdactic>
+ * Click Load
 
 4.- Tests. Print this on a workspace:
+```Smalltalk
 m := MonticelloTestClass new.
 m message.
+```
+
+## Travis CI Status
+**squeak4.3 & squeak4.4** : [![Build Status](https://travis-ci.org/dalehenrich/filetree.png?branch=squeak4.3)](http://travis-ci.org/dalehenrich/filetree) 
