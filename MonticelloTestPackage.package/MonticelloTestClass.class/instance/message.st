@@ -1,4 +1,4 @@
 as yet unclassified
 message
 	"comment stating purpose of message"
-	^4 "this is an edit from the notebook, I will manually git it over the console"
+	^10 "value `4` originally cloned from git, modified to 10 and pushed back from the desktop"
