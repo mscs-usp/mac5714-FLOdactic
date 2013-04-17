@@ -1,0 +1,15 @@
+# Environment variables defined `source` me
+#
+# Copyright (c) 2012 VMware, Inc. All Rights Reserved <dhenrich@vmware.com>.
+#
+
+export BUILDER_CI_HOME="$(pwd)"
+export BASE_PATH="$BUILDER_CI_HOME"
+export BUILD_PATH="${WORKSPACE:=$BASE_PATH/builds}"
+export IMAGES_PATH="$BASE_PATH/images"
+export SCRIPTS_PATH="$BASE_PATH/scripts"
+export SOURCES_PATH="$BASE_PATH/sources"
+export VM_PATH="$BASE_PATH/oneclick/Contents"
+export BUILD_CACHE="$BASE_PATH/cache"
+export GIT_PATH="$IMAGES_PATH/git_cache"
+
