@@ -9,9 +9,9 @@ env:
 install:
    - export PROJECT_HOME="$(pwd)"
    - cd $HOME 
-   - wget -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
+   - wget -O builderCI.zip https://github.com/poo2013pos/FLOdactic/zipball/master
    - unzip -q builderCI.zip
-   - cd dalehenrich-builderCI*
+   - cd poo2013pos-FLOdactic*
    - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
    - ./build_image.sh
