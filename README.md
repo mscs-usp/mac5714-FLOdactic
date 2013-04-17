@@ -81,4 +81,4 @@ m message.
 ```
 
 ## Travis CI Status
-**squeak4.3 & squeak4.4** : [![Build Status](https://travis-ci.org/dalehenrich/filetree.png?branch=squeak4.3)](http://travis-ci.org/dalehenrich/filetree) 
+**squeak4.3 & squeak4.4** : [![Build Status](https://travis-ci.org/poo2013pos/FLOdactic.png)](https://travis-ci.org/poo2013pos/FLOdactic)
