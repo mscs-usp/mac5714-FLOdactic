@@ -1,0 +1,20 @@
+{
+	"category" : "FLOdactic-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultAuthorName",
+		"DefaultMaterialLicense",
+		"DefaultMaterialTitle",
+		"DefaultMaterialType",
+		"MaterialLicenses",
+		"MaterialStatuses",
+		"MaterialTypes" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLOdacticConstants",
+	"pools" : [
+		 ],
+	"super" : "SharedPool",
+	"type" : "normal" }
