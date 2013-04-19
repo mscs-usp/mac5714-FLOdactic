@@ -1,0 +1,14 @@
+{
+	"category" : "FLOdactic-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"full" ],
+	"name" : "AuthorTestExample",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
