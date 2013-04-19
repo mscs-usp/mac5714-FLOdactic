@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name" ],
+		 ],
 	"name" : "Author",
 	"pools" : [
 		"FLOdacticConstants" ],
-	"super" : "GRObject",
+	"super" : "Person",
 	"type" : "normal" }

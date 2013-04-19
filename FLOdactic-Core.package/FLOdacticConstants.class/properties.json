@@ -4,6 +4,7 @@
 		 ],
 	"classvars" : [
 		"DefaultAuthorName",
+		"DefaultEmail",
 		"DefaultMaterialLicense",
 		"DefaultMaterialTitle",
 		"DefaultMaterialType",

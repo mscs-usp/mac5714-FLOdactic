@@ -9,3 +9,4 @@ initialize
 	DefaultMaterialLicense := #CreativeCommons.
 	
 	DefaultAuthorName := 'Unknown'.
+	DefaultEmail := 'Unset'
