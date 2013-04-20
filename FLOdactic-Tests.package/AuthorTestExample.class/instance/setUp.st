@@ -1,5 +1,3 @@
 as yet unclassified
 setUp
-	"comment stating purpose of message"
-
-	self assert: (False)
+	"Variables setup for the test"
