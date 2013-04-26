@@ -69,16 +69,16 @@ Then using the MonticelloBrowser Create a FLOdactic package and a filetree repos
 
 3.- Reload the package on the local Seaside/Squeak:
 * With the MonticelloBrowser
- * Find the package
- * Click Open
+ * Create a package called FLOdactic
+ * Click +Repository
 * With the Repository:filetree:///<path-to-FLOdactic>
- * Click Load
+ * Select the FLOdactic folder
+ * Click Open
+ * For every package on the left pane: Click it
+  * Click on the latest version on the right pane (it should be on bold letters)
+  * Click Load
 
-4.- Tests. Print this on a workspace:
-```Smalltalk
-m := MonticelloTestClass new.
-m message.
-```
+4.- A sample workspace is available for testing on the FLOdactic-Tests package
 
-## Travis CI Status
+## Travis CI Status (in [painfull] progress)
 **squeak4.3 & squeak4.4** : [![Build Status](https://travis-ci.org/poo2013pos/FLOdactic.png)](https://travis-ci.org/poo2013pos/FLOdactic)
