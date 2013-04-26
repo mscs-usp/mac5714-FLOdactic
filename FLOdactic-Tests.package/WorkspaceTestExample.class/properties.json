@@ -1,14 +1,14 @@
 {
-	"category" : "FLOdactic-Core",
+	"category" : "FLOdactic-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TagCollection",
+		"full" ],
+	"name" : "WorkspaceTestExample",
 	"pools" : [
 		 ],
-	"super" : "SequenceableCollection",
+	"super" : "TestCase",
 	"type" : "normal" }
