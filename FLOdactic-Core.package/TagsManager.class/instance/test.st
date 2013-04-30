@@ -1,6 +1,5 @@
 as yet unclassified
-new
+test
 	"comment stating purpose of message"
 
-	items := KeyedSet new.
-	^ self.
+	items add: 'hello'.

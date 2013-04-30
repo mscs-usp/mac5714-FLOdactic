@@ -1,5 +1,5 @@
 as yet unclassified
-add: aTag
+addi: aTag
 	"Adds aTag to the internal items structure"
 
-	items add: aTag.
+	self items add: aTag.
