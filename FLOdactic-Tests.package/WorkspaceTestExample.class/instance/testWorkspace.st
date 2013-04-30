@@ -5,24 +5,21 @@ testWorkspace
 	"Specific test roadmap (working)
 	
 * Create an administrator and two moderators
-admin := Administrator new.
-admin email: 'admin@flodactic.org'; name: 'Leonardo Boiko'.
-
-moderator01 := Moderator new.
-moderator01 email: 'moderator01@flodactic.org'; name: 'Jose Rodrigues'.
-
-moderator02 := Moderator new.
-moderator02 email: 'moderator02@flodactic.org'; name: 'Leonardo Santos'.
+admin := User new.
+admin email: 'admin@flodactic.org'; name: 'Leonardo Canto'; role: admin.
+moderator01 := User new.
+moderator01 email: 'moderator01@flodactic.org'; name: 'Jose Rodrigues'; role: moderator.
+moderator02 := User new.
+moderator02 email: 'moderator02@flodactic.org'; name: 'Renato Santos'; role: moderator.
 
 * Create a regular user
 albert := Author new: 'Albert De La Fuente'.
 
 * Create a tag (which way?)
 pythonTag := Tag new: 'python'.
-tags := OrderedCollection new.
-tags add: 'python';
-        add: 'programming';
-        add: 'ldap'.
+ldapTag := Tag new: 'LDAP'.
+programmingTag := Tag new: 'programming'.
+tagsManager := TagsManager new.
 
 * Create a material
 didacticMaterial := DidacticMaterial new.
