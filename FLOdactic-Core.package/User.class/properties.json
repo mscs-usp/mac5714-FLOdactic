@@ -9,7 +9,8 @@
 		"username",
 		"password",
 		"status",
-		"isAdmin" ],
+		"isAdmin",
+		"role" ],
 	"name" : "User",
 	"pools" : [
 		 ],

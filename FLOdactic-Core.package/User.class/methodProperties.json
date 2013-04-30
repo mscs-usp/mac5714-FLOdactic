@@ -2,4 +2,5 @@
 	"class" : {
 		"initializeWithEmail:" : "afv 4/18/2013 23:38" },
 	"instance" : {
-		"initializeAsAdmin" : "afv 4/18/2013 23:36" } }
+		"initializeAsAdmin" : "afv 4/18/2013 23:36",
+		"role:" : "afv 4/30/2013 10:45" } }

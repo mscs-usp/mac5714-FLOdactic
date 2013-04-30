@@ -1,14 +1,14 @@
 {
 	"category" : "FLOdactic-Core",
 	"classinstvars" : [
-		 ],
+		"items" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"items" ],
 	"name" : "TagsManager",
 	"pools" : [
 		 ],
-	"super" : "SequenceableCollection",
+	"super" : "GRObject",
 	"type" : "normal" }
