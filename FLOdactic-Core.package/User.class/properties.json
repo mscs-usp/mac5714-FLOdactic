@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"email",
+		"username",
+		"password",
+		"status",
 		"isAdmin" ],
 	"name" : "User",
 	"pools" : [
