@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "afv 4/30/2013 21:48",
+		"setUp" : "afv 5/1/2013 20:01",
 		"tearDown" : "afv 4/30/2013 21:57",
-		"testDuplicatedEmails" : "afv 4/30/2013 22:18",
-		"testDuplicatedUsername" : "afv 4/30/2013 21:14",
-		"testEmptyEmail" : "afv 4/30/2013 21:55",
-		"testEmptyName" : "afv 4/30/2013 21:55",
-		"testEmptyPassword" : "afv 4/30/2013 21:54",
-		"testEmptyRole" : "afv 4/30/2013 21:56",
-		"testEmptyStatus" : "afv 4/30/2013 21:56",
-		"testEmptyUsername" : "afv 4/30/2013 21:54" } }
+		"testAddWithDuplicatedEmails" : "afv 5/1/2013 20:08",
+		"testAddWithDuplicatedUsername" : "afv 5/1/2013 20:08",
+		"testAddWithEmptyEmail" : "afv 5/1/2013 20:10",
+		"testAddWithEmptyName" : "afv 5/1/2013 20:11",
+		"testAddWithEmptyPassword" : "afv 5/1/2013 20:11",
+		"testAddWithEmptyRole" : "afv 5/1/2013 20:11",
+		"testAddWithEmptyStatus" : "afv 5/1/2013 20:11",
+		"testAddWithEmptyUsername" : "afv 5/1/2013 20:11",
+		"testRemoveWithNonExistingUsername" : "afv 5/1/2013 20:12" } }

@@ -8,11 +8,9 @@
 	"instvars" : [
 		"admin",
 		"admin1",
-		"admin2",
-		"full",
-		"usersManager" ],
-	"name" : "UsersTests",
+		"admin2" ],
+	"name" : "NameOfSubclass",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }
