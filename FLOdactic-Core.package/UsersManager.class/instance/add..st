@@ -1,13 +1,14 @@
 as yet unclassified
 add: anUser
 	"Adds an user to the structure. Raises errors on:
-	- empty username
-	- empty password
-	- empty email
-	- empty role
-	- empty status
-	- repeated usernames (verified via dictionary [test: UserTests:testDuplicatedUsername])
-	- repeated emails
+	- empty username (verified with testEmptyUsername)
+	- empty password (verified with testEmptyPassword)
+	- empty email (verified with testEmptyEmail)
+	- empty role (verified with testEmptyRole)
+	- empty status (verified with testEmptyStatus)
+	- repeated usernames (verified via items dictionary [test: testDuplicatedUsername])
+	- repeated emails (verified via emailsSet [test: testDuplicatedEmails])
+	* Test class: UserTests
 	"
 	(anUser username) ifNil: [
 		self error: 'Username cannot be empty!'
