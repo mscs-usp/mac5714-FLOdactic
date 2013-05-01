@@ -2,7 +2,7 @@ as yet unclassified
 testWorkspace
 	"This is not really a test, is a 'persistent workspace' in order to be able to use it over git"
 
-	| admin mod01 mod02 albert igor userManager |
+	| admin mod01 mod02 albert igor usersManager |
 	
 	"Create special users objects"
 	admin := User new.
@@ -19,8 +19,9 @@ testWorkspace
 	igor username: 'topcin'; password: 'q'; name: 'Igor Topcin'; email: 'topcin@ime.usp.br'; role: 'user'; status: 'enabled'.
 
 	"Add them to the system"
-	userManager := UserManager new.
-	userManager add: mod01.
-	userManager add: mod02.
-	userManager add: albert.
-	userManager add: igor.
+	usersManager := UserManager new.
+	usersManager add: admin.
+	usersManager add: mod01.
+	usersManager add: mod02.
+	usersManager add: albert.
+	usersManager add: igor.

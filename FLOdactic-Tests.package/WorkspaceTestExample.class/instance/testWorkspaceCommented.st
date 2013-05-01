@@ -15,12 +15,12 @@ albert username: 'vonpupp'; password: 'q'; name: 'Albert De La Fuente'; email: '
 igor := User new.
 igor username: 'topcin'; password: 'q'; name: 'Igor Topcin'; email: 'topcin@ime.usp.br'; role: 'user'; status: 'enabled'.
 
-userManager := UserManager new.
-userManager add: mod01.
-userManager add: mod01.
-userManager add: mod02.
-userManager add: albert.
-userManager add: igor.
+usersManager := UserManager new.
+usersManager add: admin.
+usersManager add: mod01.
+usersManager add: mod02.
+usersManager add: albert.
+usersManager add: igor.
 
 * Create a tag (which way?)
 pythonTag := Tag new: 'python'.

@@ -1,13 +1,14 @@
 {
 	"category" : "FLOdactic-Core",
 	"classinstvars" : [
-		"items" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"items" ],
-	"name" : "UserManager",
+		"items",
+		"emailsSet" ],
+	"name" : "UsersManager",
 	"pools" : [
 		 ],
 	"super" : "Object",
