@@ -2,4 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDuplicatedUsername" : "afv 4/30/2013 21:14" } }
+		"setUp" : "afv 4/30/2013 21:48",
+		"tearDown" : "afv 4/30/2013 21:57",
+		"testDuplicatedUsername" : "afv 4/30/2013 21:14",
+		"testEmptyEmail" : "afv 4/30/2013 21:55",
+		"testEmptyName" : "afv 4/30/2013 21:55",
+		"testEmptyPassword" : "afv 4/30/2013 21:54",
+		"testEmptyRole" : "afv 4/30/2013 21:56",
+		"testEmptyStatus" : "afv 4/30/2013 21:56",
+		"testEmptyUsername" : "afv 4/30/2013 21:54" } }
