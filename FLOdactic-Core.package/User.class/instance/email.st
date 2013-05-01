@@ -1,3 +1,3 @@
 accessing
 email
-	^ self email
+	^ email
