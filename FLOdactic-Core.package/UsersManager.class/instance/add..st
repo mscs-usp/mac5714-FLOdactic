@@ -27,6 +27,10 @@ add: anUser
 	(anUser status) ifNil: [
 		self error: 'Status cannot be empty oh oh!'
 	].
+	(emailsSet includes: (anUser email)) ifTrue: [
+		Transcript show: ' already exists on the system'.
+		self error: 'Cannot add that username, its email address already exists on the system!'
+	].
 	(items includesKey: (anUser username)) ifTrue: [
 		Transcript show: ' already exists on the system'.
 		self error: 'Cannot add that username, it already exists on the system. Did you forget the password? No cookies for you!'
