@@ -4,6 +4,7 @@
 	"instance" : {
 		"setUp" : "afv 4/30/2013 21:48",
 		"tearDown" : "afv 4/30/2013 21:57",
+		"testDuplicatedEmails" : "afv 4/30/2013 22:18",
 		"testDuplicatedUsername" : "afv 4/30/2013 21:14",
 		"testEmptyEmail" : "afv 4/30/2013 21:55",
 		"testEmptyName" : "afv 4/30/2013 21:55",
