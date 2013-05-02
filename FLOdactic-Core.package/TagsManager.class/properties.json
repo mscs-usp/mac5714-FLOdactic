@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "afv 5/1/2013 20:44",
 	"instvars" : [
-		"username",
-		"password",
-		"email",
-		"role",
-		"status" ],
-	"name" : "User",
+		"items" ],
+	"name" : "TagsManager",
 	"pools" : [
 		 ],
-	"super" : "Person",
+	"super" : "Object",
 	"type" : "normal" }

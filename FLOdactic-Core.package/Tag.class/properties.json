@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "afv 5/1/2013 20:47",
+	"commentStamp" : "afv 5/1/2013 20:41",
 	"instvars" : [
-		"items",
-		"emailsSet" ],
-	"name" : "UsersManager",
+		"name" ],
+	"name" : "Tag",
 	"pools" : [
 		 ],
 	"super" : "Object",

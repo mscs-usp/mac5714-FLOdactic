@@ -4,11 +4,17 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "afv 5/1/2013 20:47",
+	"commentStamp" : "",
 	"instvars" : [
-		"items",
-		"emailsSet" ],
-	"name" : "UsersManager",
+		"uri",
+		"title",
+		"created",
+		"modified",
+		"description",
+		"type",
+		"license",
+		"status" ],
+	"name" : "DidacticMaterial",
 	"pools" : [
 		 ],
 	"super" : "Object",
