@@ -1,11 +1,14 @@
 {
 	"category" : "FLOdactic-Core",
 	"classinstvars" : [
-		 ],
+		"owners" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"authors",
+		"owners",
+		"tags",
 		"uri",
 		"title",
 		"created",
