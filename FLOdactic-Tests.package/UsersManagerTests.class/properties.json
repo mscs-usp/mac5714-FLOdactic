@@ -6,8 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"full" ],
-	"name" : "AuthorTestExample",
+		"usersManager",
+		"user",
+		"user1",
+		"user2" ],
+	"name" : "UsersManagerTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

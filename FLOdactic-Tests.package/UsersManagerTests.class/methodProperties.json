@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "afv 5/2/2013 19:45",
+		"testAddWithDuplicatedEmails" : "afv 5/2/2013 19:50",
+		"testAddWithDuplicatedUsername" : "afv 5/2/2013 19:51",
+		"testDoLoginWithDisabledUser" : "afv 5/2/2013 19:54",
+		"testDoLoginWithNonExistingUsername" : "afv 5/2/2013 19:52",
+		"testDoLoginWithWrongPassword" : "afv 5/2/2013 19:53",
+		"testRemoveWithNonExistingUsername" : "afv 5/2/2013 19:40" } }
