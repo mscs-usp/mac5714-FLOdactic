@@ -1,10 +1,12 @@
 accessing
 initialize
-	"comment stating purpose of message"
+	"Initializes the object"
 
+	"Mandatory user's attributes"
 	username := nil.
 	password := nil.
-	name := nil.
 	email := nil.
+	
+	"Automatic attributes (defined by the manager)"
 	role := nil.
 	status := nil.

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"singleton" : "afv 5/2/2013 20:04" },
 	"instance" : {
 		"add:" : "afv 5/2/2013 18:59",
 		"asOrderedCollection" : "afv 5/2/2013 18:01",

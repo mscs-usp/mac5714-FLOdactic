@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"singleton" : "afv 5/2/2013 20:04" },
 	"instance" : {
 		"initialize" : "afv 5/1/2013 21:49",
 		"owner:add:" : "afv 5/1/2013 22:48" } }
