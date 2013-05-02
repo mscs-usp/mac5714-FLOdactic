@@ -3,8 +3,8 @@ doLogin: aUsernameString password: aPasswordString
 	"Authenticates the user into the system.
 	Returns true if username/password matches the ones provided, false if not.
 	Possible errors:
-	- Username missmatch. Test:
-	- Password missmatch. Test:
+	- Username missmatch. Test: testDoLoginWithNonExistingUsername
+	- Password missmatch. Test: testDoLoginWithWrongPassword
 	- User is disabled. Test:
 	"
 	| user test acceptedAuth msg error |
