@@ -1,3 +1,3 @@
 as yet unclassified
-createNewUser: anUser 
+addUser: anUser 
 	users add: anUser.
