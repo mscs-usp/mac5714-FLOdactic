@@ -13,7 +13,7 @@ add: anUser
 	(anUser username) ifNil: [
 		self error: 'Username cannot be empty!'
 	].
-	(anUser password) ifNil: [
+	(anUser hasEmptyPassword) ifTrue: [
 		self error: 'Password cannot be empty Mr. genious!'
 	].
 	(anUser name) ifNil: [
