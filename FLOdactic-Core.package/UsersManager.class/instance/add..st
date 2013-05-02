@@ -30,14 +30,14 @@ add: anUser
 	].
 	(emailsSet includes: (anUser email)) ifTrue: [
 		Transcript show: ' already exists on the system'.
-		self error: 'Cannot add that username, its email address already exists on the system!'
+		self error: 'Cannot add that username, its email address already exists on the system!'; crlf.
 	].
 	(items includesKey: (anUser username)) ifTrue: [
 		Transcript show: ' already exists on the system'.
-		self error: 'Cannot add that username, it already exists on the system. Did you forget the password? No cookies for you!'
+		self error: 'Cannot add that username, it already exists on the system. Did you forget the password? No cookies for you!'; crlf.
 	].
 	[(items at: (anUser username))] ifError: [
 		items add: (anUser username) -> anUser.
 		emailsSet add: (anUser email).
-		Transcript show: ' doesnt exists on the system, adding it...'.
+		Transcript show: ' doesnt exists on the system, adding it...'; crlf.
 	].
