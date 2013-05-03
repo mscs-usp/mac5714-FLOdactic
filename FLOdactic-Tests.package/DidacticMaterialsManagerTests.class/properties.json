@@ -1,0 +1,17 @@
+{
+	"category" : "FLOdactic-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"material",
+		"material1",
+		"material2",
+		"manager" ],
+	"name" : "DidacticMaterialsManagerTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

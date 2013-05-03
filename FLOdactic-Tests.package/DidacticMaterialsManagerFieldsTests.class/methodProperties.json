@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"setUp" : "afv 5/2/2013 21:31",
-		"testAddWithAutomaticAttributes" : "afv 5/2/2013 21:39",
 		"testAddWithEmptyDescription" : "afv 5/2/2013 21:35",
 		"testAddWithEmptyLicense" : "afv 5/2/2013 21:36",
 		"testAddWithEmptyTitle" : "afv 5/2/2013 21:35",
