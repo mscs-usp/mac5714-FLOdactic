@@ -2,6 +2,7 @@
 	"class" : {
 		"singleton" : "afv 5/2/2013 20:03" },
 	"instance" : {
+		"addMaterial:" : "afv 5/2/2013 21:14",
 		"addUser:" : "afv 5/2/2013 18:03",
 		"doLogin:password:" : "afv 5/2/2013 20:56",
 		"initialize" : "afv 5/2/2013 20:17",
