@@ -31,5 +31,8 @@ testWorkspace
 	ui addUser: igor.
 	
 	ui doLogin: 'albert' password: 'q'.
-	ldapDocument username: 'admin'; password: 'q'; name: 'Leonardo Santos'; email: 'admin@flodactic.org'; role: 'administrator'; status: 'enabled'.
+
+	ldapDocument := DidacticMaterial new.
+	ldapDocument uri: 'uri'; title: 'title'; description: 'description'; type: 'type'; license: 'license'.
+	ui addMaterial: ldapDocument. "The loggedUser is implicit within that attribute"
 "	ui addMaterial: 'uri'; title: 'title'; description: 'description'; type: 'type'; license: 'license'"

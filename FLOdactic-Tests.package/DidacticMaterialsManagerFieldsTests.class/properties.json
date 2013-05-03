@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"admin",
-		"admin1",
-		"admin2",
-		"full",
-		"usersManager" ],
-	"name" : "UsersTests",
+		"material",
+		"material1",
+		"material2",
+		"manager" ],
+	"name" : "DidacticMaterialsManagerFieldsTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
