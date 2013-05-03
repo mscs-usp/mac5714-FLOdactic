@@ -8,6 +8,7 @@ doLogin: aUsernameString password: aPasswordString
 	- User is disabled. Test:
 	"
 	| user test acceptedAuth msg error |
+	user := nil.
 	test := items includesKey: aUsernameString.
 	(test) ifFalse: [
 		msg := 'User doesnt exist'.
@@ -36,4 +37,4 @@ doLogin: aUsernameString password: aPasswordString
 	(error) ifTrue: [
 		self error: msg; crlf.
 	].
-	^ test and: acceptedAuth.
+	^ user.

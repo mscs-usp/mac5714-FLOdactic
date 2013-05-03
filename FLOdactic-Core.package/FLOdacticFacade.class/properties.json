@@ -8,7 +8,8 @@
 	"instvars" : [
 		"users",
 		"didacticMaterials",
-		"tags" ],
+		"tags",
+		"loggedUser" ],
 	"name" : "FLOdacticFacade",
 	"pools" : [
 		 ],
