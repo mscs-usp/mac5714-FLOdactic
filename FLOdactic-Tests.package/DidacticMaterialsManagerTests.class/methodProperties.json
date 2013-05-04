@@ -5,4 +5,5 @@
 		"setUp" : "afv 5/2/2013 22:00",
 		"testAddAuthorsAgretation" : "afv 5/2/2013 22:01",
 		"testAddTagsAgretation" : "afv 5/2/2013 22:01",
-		"testAddWithAutomaticAttributes" : "afv 5/2/2013 22:00" } }
+		"testAddWithAutomaticAttributes" : "afv 5/2/2013 22:00",
+		"testDidacticMaterialManagerCounterIncrementsAfterAddingADidacticMaterial" : "afv 5/4/2013 10:17" } }
