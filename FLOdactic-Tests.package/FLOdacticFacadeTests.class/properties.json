@@ -1,0 +1,14 @@
+{
+	"category" : "FLOdactic-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testui" ],
+	"name" : "FLOdacticFacadeTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "afv 5/4/2013 10:55",
+		"tearDown" : "afv 5/4/2013 10:55",
+		"testFailedLoginUsernamePassword" : "afv 5/4/2013 11:02",
+		"testSuccessfulLoginUsernamePassword" : "afv 5/4/2013 11:00" } }
