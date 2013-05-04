@@ -2,6 +2,9 @@
 	"class" : {
 		"singleton" : "afv 5/2/2013 20:04" },
 	"instance" : {
+		"addAll:" : "afv 5/4/2013 11:56",
+		"filterUriEquals:" : "afv 5/4/2013 11:42",
 		"initialize" : "afv 5/1/2013 21:49",
 		"owner:add:" : "afv 5/2/2013 21:22",
+		"select:" : "afv 5/4/2013 11:58",
 		"size" : "afv 5/4/2013 10:16" } }
