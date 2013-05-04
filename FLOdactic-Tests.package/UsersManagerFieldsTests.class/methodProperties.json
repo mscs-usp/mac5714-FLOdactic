@@ -9,4 +9,6 @@
 		"testAddWithEmptyPassword" : "afv 5/1/2013 20:11",
 		"testAddWithEmptyRole" : "afv 5/1/2013 20:11",
 		"testAddWithEmptyStatus" : "afv 5/1/2013 20:11",
-		"testAddWithEmptyUsername" : "afv 5/1/2013 20:11" } }
+		"testAddWithEmptyUsername" : "afv 5/1/2013 20:11",
+		"testMatchUsernameMatchPassword" : "afv 5/4/2013 09:50",
+		"testUserIsEnabled" : "afv 5/4/2013 09:47" } }
