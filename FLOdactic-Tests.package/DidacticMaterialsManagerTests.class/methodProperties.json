@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "afv 5/2/2013 22:00",
-		"testAddAuthorsAgretation" : "afv 5/2/2013 22:01",
-		"testAddTagsAgretation" : "afv 5/2/2013 22:01",
-		"testAddWithAutomaticAttributes" : "afv 5/2/2013 22:00",
-		"testDidacticMaterialManagerCounterIncrementsAfterAddingADidacticMaterial" : "afv 5/4/2013 10:17" } }
+		"setUp" : "afv 5/4/2013 12:22",
+		"tearDown" : "afv 5/4/2013 12:29",
+		"testAddAuthorsAgretation" : "afv 5/4/2013 12:31",
+		"testAddTagsAgretation" : "afv 5/4/2013 12:23",
+		"testAddWithAutomaticAttributes" : "afv 5/4/2013 12:23",
+		"testDidacticMaterialManagerCounterIncrementsAfterAddingADidacticMaterial" : "afv 5/4/2013 12:25",
+		"testSimpleSelectByUri" : "afv 5/4/2013 12:48" } }
