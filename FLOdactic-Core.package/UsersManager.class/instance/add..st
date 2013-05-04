@@ -10,34 +10,50 @@ add: anUser
 	- repeated emails (verified via emailsSet [test: testDuplicatedEmails])
 	* Test class: UserTests
 	"
+	
+	| msg error test |
+	
+	error := false.
+	msg := ''.
 	(anUser username) ifNil: [
-		self error: 'Username cannot be empty!'
+		msg := 'Username cannot be empty!'.
+		error := true.
 	].
 	(anUser hasEmptyPassword) ifTrue: [
-		self error: 'Password cannot be empty Mr. genious!'
+		msg := 'Password cannot be empty Mr. genious!'.
+		error := true.
 	].
 	(anUser name) ifNil: [
-		self error: 'Name cannot be empty!'
+		msg := 'Name cannot be empty!'.
+		error := true.
 	].
 	(anUser email) ifNil: [
-		self error: 'Email cannot be empty!'
+		msg := 'Email cannot be empty!'.
+		error := true.
 	].
 	(anUser role) ifNil: [
-		self error: 'Role cannot be empty!'
+		msg := 'Role cannot be empty!'.
+		error := true.
 	].
 	(anUser status) ifNil: [
-		self error: 'Status cannot be empty oh oh!'
+		msg := 'Status cannot be empty oh oh!'.
+		error := true.
 	].
 	(emailsSet includes: (anUser email)) ifTrue: [
-		Transcript show: ' already exists on the system'.
-		self error: 'Cannot add that username, its email address already exists on the system!'; crlf.
+		msg := 'Cannot add that username, its email address already exists on the system!'.
+		error := true.
 	].
-	(items includesKey: (anUser username)) ifTrue: [
-		Transcript show: ' already exists on the system'.
-		self error: 'Cannot add that username, it already exists on the system. Did you forget the password? No cookies for you!'; crlf.
+	test := items includesKey: (anUser username).
+	(test) ifTrue: [
+		msg := 'Cannot add that username, it already exists on the system. Did you forget the password? No cookies for you!'.
+		error := true.
 	].
-	[(items at: (anUser username))] ifError: [
+	(test) ifFalse: [
 		items add: (anUser username) -> anUser.
 		emailsSet add: (anUser email).
-		Transcript show: ' doesnt exists on the system, adding it...'; crlf.
+		msg := 'The user doesnt exists on the system, adding it...'.
+	].
+	Transcript show: msg; crlf.
+	(error) ifTrue: [
+		self error: msg.
 	].
