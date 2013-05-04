@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfFLOdactic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfFLOdactic",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
