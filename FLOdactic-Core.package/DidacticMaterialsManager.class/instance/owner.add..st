@@ -4,7 +4,7 @@ owner: anAuthor add: aDidacticMaterial
 	
 	| uri msg test |
 	uri := aDidacticMaterial uri.
-	test := items contains: uri.
+	test := items includes: uri.
 	(test) ifTrue: [
 		msg := 'The didactic material: *', uri, '* already exists!'.
 		self error: msg
