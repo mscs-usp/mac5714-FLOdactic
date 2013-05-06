@@ -1,5 +1,5 @@
 as yet unclassified
-testSimpleSelectByUri
+testSimpleSelectByLicense
 	""
 
 	| result |
@@ -7,7 +7,8 @@ testSimpleSelectByUri
 	self setUp.
 	testmanager1 owner: testuser1 add: testmaterial1.
 	testmanager1 owner: testuser1 add: testmaterial2.
-	result := testmanager1 select: [:doc | doc uri = 'http://www.albertdelafuente.com/doku.php/wiki/devel/python/ldap-auth'].
+	testmanager1 owner: testuser1 add: testmaterial3.
+	result := testmanager1 select: [:doc | doc license = 'GPLv2'].
 	
 	self assert: ((result size) = 1).
 	
