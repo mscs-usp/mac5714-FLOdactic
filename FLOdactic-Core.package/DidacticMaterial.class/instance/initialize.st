@@ -12,6 +12,6 @@ initialize
 	
 	"Agregations"
 	author := nil.
-"	owners := nil."
+	owners := Dictionary new.
 	
 	

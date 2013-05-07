@@ -1,17 +1,12 @@
 accessing
 owner: anAuthor add: aDidacticMaterial
 	"Adds aDidacticMaterial to the internal structure. It also links that didactic material to anAuthor"
+	|msg|
 	
-	| uri msg test |
-	uri := aDidacticMaterial uri.
-	test := items includes: uri.
-	(test) ifTrue: [
-		msg := 'The didactic material: *', uri, '* already exists!'.
-		self error: msg
-	].
-	(test) ifFalse: [
-		msg := 'The didactic material: *', uri, '* DOESNT exists!'.
-		aDidacticMaterial owner: anAuthor.
-		items add: uri -> aDidacticMaterial.
-	].
+	self validate: aDidacticMaterial.
+
+	aDidacticMaterial owner: anAuthor.
+	items add: aDidacticMaterial uri -> aDidacticMaterial.
+
+	msg := 'The didactic material: *', aDidacticMaterial uri, '* DOESNT exists! Creating...'.
 	Transcript show: msg; cr.
