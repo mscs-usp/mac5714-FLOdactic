@@ -9,13 +9,6 @@ filterByAuthor: anAuthorString
 	test ifFalse: [
 		searchExpression := self wildCardExpression: anAuthorString.
 		"If this works... it most probably could be optimized and beautified!"
-		^ [ :didacticMaterial | 
-			didacticMaterial author = nil ifTrue: [
-				false
-			].
-			didacticMaterial author = nil ifFalse: [
-				searchExpression match: (didacticMaterial author name)
-			]
-		].
+		^ [ :didacticMaterial | searchExpression match: ((didacticMaterial author) name)].
 		"(didacticMaterialsManager select: [ :didacticMaterial | (anAuthorString match: didacticMaterial author)]) items."
 	].
