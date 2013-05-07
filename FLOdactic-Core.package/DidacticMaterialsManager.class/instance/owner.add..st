@@ -1,5 +1,5 @@
 accessing
-owner: anAuthor add: aDidacticMaterial
+owner: anOwner add: aDidacticMaterial
 	"Adds aDidacticMaterial to the internal structure. It also links that didactic material to anAuthor"
 	
 	| uri msg test |
@@ -11,7 +11,7 @@ owner: anAuthor add: aDidacticMaterial
 	].
 	(test) ifFalse: [
 		msg := 'The didactic material: *', uri, '* DOESNT exists!'.
-		aDidacticMaterial owner: anAuthor.
+		aDidacticMaterial owner: anOwner.
 		items add: uri -> aDidacticMaterial.
 	].
 	Transcript show: msg; cr.
