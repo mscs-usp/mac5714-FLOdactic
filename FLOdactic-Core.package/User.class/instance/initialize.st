@@ -1,7 +1,7 @@
 accessing
 initialize
-	"Initializes the object"
-
+	super initialize.
+	
 	"Mandatory user's attributes"
 	username := nil.
 	password := nil.

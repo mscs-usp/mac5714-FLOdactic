@@ -16,7 +16,8 @@
 		"description",
 		"type",
 		"license",
-		"status" ],
+		"status",
+		"author" ],
 	"name" : "DidacticMaterial",
 	"pools" : [
 		 ],

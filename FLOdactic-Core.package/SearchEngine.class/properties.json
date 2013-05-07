@@ -1,18 +1,17 @@
 {
 	"category" : "FLOdactic-Core",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"users",
+		"didacticMaterialsManager",
 		"didacticMaterials",
-		"tags",
-		"loggedUser",
-		"floogle",
-		"search" ],
-	"name" : "FLOdacticFacade",
+		"resultsByTitle",
+		"resultsByDescription",
+		"searchResults" ],
+	"name" : "SearchEngine",
 	"pools" : [
 		 ],
 	"super" : "Object",

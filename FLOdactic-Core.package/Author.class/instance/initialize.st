@@ -1,5 +1,6 @@
 as yet unclassified
 initialize
-	"Initializes the object"
-
+	super initialize.
+	
 	name := nil.
+	bio := nil.

@@ -1,20 +1,17 @@
-as yet unclassified
+accessing
 initialize
-	"Initializes the object"
-
-	"Mandatory user filled attributes"
+	super initialize.
+	
+	"No attribute is mandatory at this point, everything will be checked when it will be added"
 	uri := nil.
 	title := nil.
 	description := nil.
 	type := nil.
 	license := nil.
-
-	"Automatic attributes (defined by the manager)"
-	created := DateAndTime now.
-	modified := DateAndTime now.
 	status := nil.
 	
 	"Agregations"
-	owners := Dictionary new.
-	authors := Dictionary new.
-	tags := Dictionary new.
+	author := nil.
+	owners := nil.
+	
+	

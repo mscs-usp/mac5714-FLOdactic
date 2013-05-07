@@ -1,6 +1,5 @@
 accessing
-initialize
+tags
 	"comment stating purpose of message"
 
-	super initialize.
-	name := nil.
+	^ tags.

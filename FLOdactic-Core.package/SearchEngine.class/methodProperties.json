@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addFilter:" : "afv 5/6/2013 20:58",
+		"checkNullResults" : "afv 5/6/2013 20:02",
+		"checkNullSearch:" : "afv 5/6/2013 19:55",
+		"filterByAuthor:" : "afv 5/6/2013 21:07",
+		"initialize" : "afv 5/6/2013 20:16",
+		"search:" : "afv 5/6/2013 20:29",
+		"wildCardExpression:" : "afv 5/6/2013 20:50" } }
