@@ -17,7 +17,8 @@
 		"type",
 		"license",
 		"status",
-		"author" ],
+		"author",
+		"owner" ],
 	"name" : "DidacticMaterial",
 	"pools" : [
 		 ],
