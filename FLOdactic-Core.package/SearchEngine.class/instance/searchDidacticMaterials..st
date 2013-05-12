@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 searchDidacticMaterials: aStringExpression
 	"Returns an ordered collection of foun items by aStringExpression by all fields
 	Later filters can by applied to narrow search results (as with google for instance)"

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 checkLoggedInOrError
 	"comment stating purpose of message"
 

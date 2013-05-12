@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 filterDidacticMaterialsByStatus: aStatusString
 	"Filter expression by description"
 

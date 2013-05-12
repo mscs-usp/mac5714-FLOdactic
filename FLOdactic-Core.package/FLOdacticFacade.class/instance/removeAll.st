@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 removeAll
 	"This is for testing purposes, persistent objects within tests are breaking some of the tests"
 

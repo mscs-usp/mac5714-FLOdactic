@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 searchTags: aStringExpression
 	"Searches for Tags that match the following criteria:
 	- name matches the informed search string aStringExpression"

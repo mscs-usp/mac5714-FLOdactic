@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 validate: aTag
 	"validates the tag, raising an error if:
 	- name is empty

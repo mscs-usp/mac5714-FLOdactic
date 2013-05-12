@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 validate: aUser
 	"Validates the passed-in User and raises errors on:
 	- empty username (verified with testEmptyUsername)

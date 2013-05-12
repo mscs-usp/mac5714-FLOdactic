@@ -1,6 +1,6 @@
-as yet unclassified
+initialize-release
 initialize
-	"self initialize"
+	"Class responsability: handles several users and encapsulates authentication methods"
 	
 	super initialize.
 	items := Dictionary new.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 doLogin: aUsernameString password: aPasswordString
 	"Performs the login to the system.
 	Returns true if login was successfull, false if not

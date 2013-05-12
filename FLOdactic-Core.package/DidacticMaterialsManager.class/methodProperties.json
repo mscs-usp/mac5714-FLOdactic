@@ -3,8 +3,8 @@
 		"singleton" : "afv 5/2/2013 20:04" },
 	"instance" : {
 		"addAll:" : "afv 5/4/2013 11:56",
-		"addTag:" : "afv 5/11/2013 15:41",
-		"initialize" : "afv 5/11/2013 15:50",
+		"catalogCards" : "afv 5/12/2013 14:31",
+		"initialize" : "afv 5/12/2013 17:02",
 		"items" : "afv 5/6/2013 19:00",
 		"owner:add:" : "afv 5/11/2013 21:58",
 		"owner:edit:" : "afv 5/11/2013 19:17",

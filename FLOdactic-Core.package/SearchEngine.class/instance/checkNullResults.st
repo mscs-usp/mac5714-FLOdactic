@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 checkNullResults
 	"comment stating purpose of message"
 

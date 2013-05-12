@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 filterDidacticMaterialsByAuthorName: anAuthorNameString
 	"Filter expression by Author's name"
 

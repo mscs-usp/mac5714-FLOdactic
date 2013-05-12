@@ -1,3 +1,3 @@
-accessing
+testing
 isDisabled
 	^ status = 'disabled'.

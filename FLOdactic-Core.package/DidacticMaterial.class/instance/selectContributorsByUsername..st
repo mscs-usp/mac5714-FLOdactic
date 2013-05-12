@@ -1,14 +1,5 @@
 accessing
 selectContributorsByUsername: anExpression
-	"Selects all the authors whose names matches anExpression"
-
-"	^ authors select: [ :author | 
-		author name ifNotNil: [
-			anExpression match: (author name)
-		]
-		ifNil: [
-			false.
-		]
-	]."
+	"Selects all the contributor whose usernames matches anExpression"
 
 	^ contributors select: [ :contributor | anExpression match: (contributor username)].

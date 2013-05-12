@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 searchUsers: aStringExpression
 	"Searches for Users that match the following criteria:
 	- name matches the informed search string aStringExpression OR

@@ -1,5 +1,7 @@
-accessing
+initialize-release
 initialize
+	"Class responsability: handles a single user"
+	
 	super initialize.
 	
 	"Mandatory user's attributes"

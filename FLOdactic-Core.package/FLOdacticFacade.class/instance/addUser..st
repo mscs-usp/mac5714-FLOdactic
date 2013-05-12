@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addUser: anUser 
 	"Add an user
 	This message doesn't needs login. This emulates self sign in to the system"

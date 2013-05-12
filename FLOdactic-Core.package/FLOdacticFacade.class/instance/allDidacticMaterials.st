@@ -1,3 +1,5 @@
-as yet unclassified
+accessing
 allDidacticMaterials
-	^ didacticMaterials.
+	"Returns a copy of all didactic materials"
+	
+	^ didacticMaterials veryDeepCopy.

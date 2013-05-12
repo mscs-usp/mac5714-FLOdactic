@@ -1,6 +1,6 @@
-accessing
+testing
 matchesTagByName: anExpression
-	"Returns true if at least one of the contributors name matches anExpression"
+	"Returns true if at least one of the tags name matches anExpression"
 
 	| list |
 	list := self selectTagsByName: anExpression.

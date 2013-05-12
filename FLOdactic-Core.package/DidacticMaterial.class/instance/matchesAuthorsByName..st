@@ -1,4 +1,4 @@
-accessing
+testing
 matchesAuthorsByName: anExpression
 	"Returns true if at least one of the authors name matches anExpression"
 

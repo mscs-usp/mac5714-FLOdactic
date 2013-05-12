@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 asOrderedCollection
 	"Returns an ordered collection containing all tags"
 

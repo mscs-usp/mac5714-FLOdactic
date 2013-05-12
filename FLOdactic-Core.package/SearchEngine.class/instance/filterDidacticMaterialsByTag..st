@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 filterDidacticMaterialsByTag: aTagString
 	"Didactic material filter expression by Author's name"
 

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 canEnable: anObject
 	"Returns true only if loggedUser can enable anObject
 	anObject can be:

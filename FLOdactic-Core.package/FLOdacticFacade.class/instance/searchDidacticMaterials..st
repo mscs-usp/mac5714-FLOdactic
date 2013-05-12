@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 searchDidacticMaterials: aStringExpression
 	"Returns an ordered collection with the search results by aStringExpression,
 	by default only enabled documents will be shown"

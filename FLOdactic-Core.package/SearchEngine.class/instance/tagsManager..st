@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 tagsManager: aTagsManager
 	"Internal API usage only."
 	

@@ -1,4 +1,4 @@
-accessing
+initialize-release
 remove: aDidacticMaterial
 	"Removes from the structure anUriString. Raises errors on:
 	- Non existing anUriString (verified with...)"

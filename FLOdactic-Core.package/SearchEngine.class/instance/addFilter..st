@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addFilter: aFilter
 	"Applies aFilter to the searchResults and returns the new results OrderedCollection"
 

@@ -15,6 +15,10 @@ testWorkspace
 
 	ui01 addMaterial: material01.
 	ui01 addMaterial: material02.
+	
+	self assert: ((material01 matchesByOwnerName: 'Albert De La Fuente') = true).	
+	self assert: ((albertUser isUser) = true).
+	self assert: ((albertUser isDisabled) = false).
 
 	floogle := SearchEngine new.
 	rawSearch := floogle searchDidacticMaterials: 'Python'.
@@ -90,6 +94,7 @@ testWorkspace
 
 	"Permission granted as contributor"	
 	ui01 addContributor: igorUser didacticMaterial: material02.
+	self assert: ((material02 matchesContributorsByName: 'Igor Topcin') = false).
 	
 	"This is a regular user (who's not the user itself), he can't edit / delete"
 	self assert: ((ui04 canRemove: albertUser) = false).
@@ -154,7 +159,9 @@ testWorkspace
 	self assert: ((material02 isBlocked) = false).
 	ui04 feedbackBlock: material02.
 	self assert: ((material02 isBlocked) = true).
-
+	self assert: ((material02 isEnabled) = false).
+	self assert: ((material02 status) = 'blocked').
+	
 	"Moderator mod01 disables material02, we counted the
 	number of items in rawSearch1 before Igor's request (see 5 lines before)"
 	ui03 feedbackDisable: material02.
@@ -178,6 +185,10 @@ testWorkspace
 	self assert: ((igorUser isBlocked) = false).
 	ui04 feedbackBlock: igorUser.
 	self assert: ((igorUser isBlocked) = true).
+	
+	"Admin disables Igor"
+	ui02 feedbackDisable: igorUser.
+	self assert: ((igorUser isDisabled) = true).
 
 	ui04 doLogout.
 	self should: [ui04 doLogin: 'igor' password: 'q'] raise: PermissionError.

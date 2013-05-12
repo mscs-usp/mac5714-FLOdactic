@@ -1,4 +1,4 @@
-accessing
+testing
 validate: aDidacticMaterial
 	"validates the material"
 	

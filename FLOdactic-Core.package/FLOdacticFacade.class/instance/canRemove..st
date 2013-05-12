@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 canRemove: anObject
 	"Returns true if loggedUser can remove anObject
 	anObject can be:

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 canEdit: anObject
 	"Returns true if loggedUser can edit anObject
 	anObject can be:

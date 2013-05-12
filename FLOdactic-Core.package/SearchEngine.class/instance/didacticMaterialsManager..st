@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 didacticMaterialsManager: aDidacticMaterialsManager
 	"Internal API usage only."
 	

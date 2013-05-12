@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 allUsers
-	"comment stating purpose of message"
+	"Returns a copy of all users"
 
-	^ users.
+	^ users veryDeepCopy.

@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initializeWithoutSingletons
 	"This is a method only for use with the tests suite, in order to recreate objects all the time"
 

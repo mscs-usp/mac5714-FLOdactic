@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 remove: aTagNameString
 	"Removes from the structure aTagNameString. Raises errors if:
 	- Tag does not exist"

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 add: aUser
 	"Adds a user to the structure.
 	* Test class: UserTests

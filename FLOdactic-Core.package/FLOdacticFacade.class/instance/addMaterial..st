@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addMaterial: aDidacticMaterial 
 	"Adds a didactic material. The owner will be the logged in user"
 	

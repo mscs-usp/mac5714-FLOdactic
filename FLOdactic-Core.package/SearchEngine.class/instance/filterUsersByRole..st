@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 filterUsersByRole: aRoleString
 	"Users filtered by type"
 	| test searchExpression |

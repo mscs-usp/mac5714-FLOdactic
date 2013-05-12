@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 wildCardExpression: anExpression
 	"Returns an expression surrounded by asterisk (wildcard search)"
 

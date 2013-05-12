@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 searchUsers: aStringExpression
 	"Returns an ordered collection with the search results by aStringExpression"
 

@@ -1,5 +1,6 @@
-accessing
+initialize-release
 initialize
+	"Class responsability: takes cares of a didactic material entity"
 	super initialize.
 	
 	"No attribute is mandatory at this point, everything will be checked when it will be added"

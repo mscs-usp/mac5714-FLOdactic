@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 remove: aUsername
 	"Removes from the structure aUsername. Raises errors on:
 	- Non existing aUsername (verified with testEmptyUsername)"

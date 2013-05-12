@@ -1,6 +1,6 @@
-accessing
+testing
 matchesContributorsByUsername: anExpression
-	"Returns true if at least one of the contributors matches anExpression by its Username"
+	"Returns true if at least one of the contributors username matches anExpression"
 
 	| list |
 	list := self selectContributorsByUsername: anExpression.

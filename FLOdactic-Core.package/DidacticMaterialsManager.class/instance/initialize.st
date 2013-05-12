@@ -1,6 +1,6 @@
-accessing
+initialize-release
 initialize
-	"comment stating purpose of message"
+	"Class responsability: handle didactic materials associations with other objects (authors, contributors, tags, etc)"
 	
 	super initialize.
 	items := Dictionary new.

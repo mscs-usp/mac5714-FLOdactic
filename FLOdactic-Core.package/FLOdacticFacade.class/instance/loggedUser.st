@@ -1,3 +1,5 @@
-as yet unclassified
+accessing
 loggedUser
-	^ loggedUser
+	"Returns the logged user"
+	
+	^ loggedUser veryDeepCopy.

@@ -1,5 +1,5 @@
 accessing
 tags
-	"comment stating purpose of message"
+	"Return the tags associated with the didactic materials as a Dictionary"
 
 	^ tags.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 add: aTag
 	
 	self validate: aTag.

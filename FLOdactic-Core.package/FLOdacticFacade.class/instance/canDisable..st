@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 canDisable: anObject
 	"Returns true only if loggedUser can disable anObject
 	anObject can be:

@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 filterDidacticMaterialsByTitle: aTitleString
 	"Filter expression by Title"
 

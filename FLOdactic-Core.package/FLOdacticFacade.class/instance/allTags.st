@@ -1,4 +1,5 @@
-as yet unclassified
+accessing
 allTags
-	"comment stating purpose of message"
-	^ tags.
+	"Returns a copy of all tags"
+	
+	^ tags veryDeepCopy.

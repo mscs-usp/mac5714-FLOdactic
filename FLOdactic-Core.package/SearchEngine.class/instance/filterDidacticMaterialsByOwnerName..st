@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 filterDidacticMaterialsByOwnerName: anOwnerString
 	"Didactic material filter expression by owner"
 	| test searchExpression |

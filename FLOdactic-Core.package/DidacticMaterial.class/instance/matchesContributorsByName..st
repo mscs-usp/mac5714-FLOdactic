@@ -1,4 +1,4 @@
-accessing
+testing
 matchesContributorsByName: anExpression
 	"Returns true if at least one of the contributors name matches anExpression"
 

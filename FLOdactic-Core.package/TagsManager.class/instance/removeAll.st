@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 removeAll
 	"Internal method only. Not intended to be used as part of the main API"
 

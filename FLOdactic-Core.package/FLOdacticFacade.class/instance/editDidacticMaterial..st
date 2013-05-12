@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 editDidacticMaterial: aDidacticMaterial 
 	"Edit a didactic material. The owner must match the logged in user"
 	

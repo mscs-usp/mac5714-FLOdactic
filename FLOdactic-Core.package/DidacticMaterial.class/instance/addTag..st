@@ -1,6 +1,6 @@
 accessing
 addTag: aTagString
-	"comment stating purpose of message"
+	"Adds aTagString to the tags"
 
 	| tag testIncludedTag |
 	

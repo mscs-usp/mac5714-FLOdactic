@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 checkNullSearch: input
 	"Checks if the filter's input parameter is null/empty and raises an error if so"
 	| isInvalid |

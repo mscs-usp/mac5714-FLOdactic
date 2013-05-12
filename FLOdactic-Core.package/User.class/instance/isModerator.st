@@ -1,3 +1,3 @@
-accessing
+testing
 isModerator
 	^ role = 'moderator'.

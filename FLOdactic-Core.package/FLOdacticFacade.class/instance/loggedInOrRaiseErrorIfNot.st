@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 loggedInOrRaiseErrorIfNot
 	"Checks if the user is logged in, and if not raises an error"
 

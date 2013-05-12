@@ -1,6 +1,7 @@
-as yet unclassified
+initialize-release
 initialize
-	"Initializes self"
+	"Class responsability: Takes care of tags"
+	
 	super initialize.
 	items := Dictionary new.
 	Transcript show: 'TagsManager initialize'.
