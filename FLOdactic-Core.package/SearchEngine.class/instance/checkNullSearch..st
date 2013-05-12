@@ -1,10 +1,10 @@
 as yet unclassified
 checkNullSearch: input
-	"comment stating purpose of message"
-
-	| test |
-	test := input = ''.
-	(test) ifTrue: [
-		self error: 'Invalid search or filter expression.'.
+	"Checks if the filter's input parameter is null/empty and raises an error if so"
+	| isInvalid |
+	(isInvalid := input isString not) ifFalse: [
+		isInvalid := input isEmpty
 	].
-	^ test.
+
+	isInvalid ifTrue: [self error: 'Invalid search or filter expression'].
+	^ isInvalid

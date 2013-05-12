@@ -1,0 +1,3 @@
+accessing
+withAdminPrivileges
+	role := 'administrator'.

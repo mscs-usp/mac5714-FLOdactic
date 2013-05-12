@@ -2,5 +2,7 @@ as yet unclassified
 initialize
 	super initialize.
 	didacticMaterialsManager := DidacticMaterialsManager singleton.
-	didacticMaterials := didacticMaterialsManager items.
+	usersManager := UsersManager singleton.
+	tagsManager := TagsManager singleton.
+	
 	searchResults := nil.

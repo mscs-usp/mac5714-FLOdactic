@@ -11,7 +11,11 @@ initialize
 	status := nil.
 	
 	"Agregations"
-	author := nil.
-	owners := Dictionary new.
+"	author := nil."
+	contributors := Dictionary new.
+	authors := Dictionary new.
+	tags := Dictionary new.
+	tagsManager := TagsManager singleton.
+"	owners := nil."
 	
 	

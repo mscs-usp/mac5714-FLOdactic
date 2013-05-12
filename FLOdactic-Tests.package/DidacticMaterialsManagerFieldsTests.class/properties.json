@@ -9,7 +9,8 @@
 		"material",
 		"material1",
 		"material2",
-		"manager" ],
+		"manager",
+		"user" ],
 	"name" : "DidacticMaterialsManagerFieldsTests",
 	"pools" : [
 		 ],

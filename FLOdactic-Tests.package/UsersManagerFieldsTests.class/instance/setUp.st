@@ -5,3 +5,5 @@ setUp
 	admin := User new.
 	admin1 := User new.
 	admin2 := User new.
+	
+	usersManager := UsersManager new.

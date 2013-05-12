@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"authors",
-		"owners",
+		"contributors",
 		"tags",
 		"uri",
 		"title",
@@ -17,8 +17,8 @@
 		"type",
 		"license",
 		"status",
-		"author",
-		"owner" ],
+		"owner",
+		"tagsManager" ],
 	"name" : "DidacticMaterial",
 	"pools" : [
 		 ],

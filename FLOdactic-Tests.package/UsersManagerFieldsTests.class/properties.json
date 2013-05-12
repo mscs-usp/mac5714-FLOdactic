@@ -9,8 +9,8 @@
 		"admin",
 		"admin1",
 		"admin2",
-		"full",
-		"usersManager" ],
+		"usersManager",
+		"facade" ],
 	"name" : "UsersManagerFieldsTests",
 	"pools" : [
 		 ],

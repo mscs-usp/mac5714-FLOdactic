@@ -7,6 +7,7 @@
 	"commentStamp" : "afv 5/1/2013 20:47",
 	"instvars" : [
 		"items",
+		"emailsMap",
 		"emailsSet" ],
 	"name" : "UsersManager",
 	"pools" : [

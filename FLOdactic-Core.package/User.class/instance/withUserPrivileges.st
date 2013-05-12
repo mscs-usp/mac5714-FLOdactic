@@ -1,0 +1,3 @@
+accessing
+withUserPrivileges
+	role := 'user'.

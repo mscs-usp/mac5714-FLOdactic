@@ -4,5 +4,5 @@ initialize
 	
 	super initialize.
 	items := Dictionary new.
-	emailsSet := Set new.
-	Transcript show: 'UserManager initialize'.
+	emailsMap := Dictionary new.
+	Transcript show: 'UserManager initialize'; crlf.

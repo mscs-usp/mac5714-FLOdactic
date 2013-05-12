@@ -1,7 +1,9 @@
 {
 	"category" : "FLOdactic-Tests",
 	"classinstvars" : [
-		 ],
+		"testui",
+		"user",
+		"login" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

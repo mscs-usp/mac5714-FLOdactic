@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "afv 5/2/2013 21:31",
-		"testAddWithEmptyDescription" : "afv 5/2/2013 21:35",
-		"testAddWithEmptyLicense" : "afv 5/2/2013 21:36",
-		"testAddWithEmptyTitle" : "afv 5/2/2013 21:35",
-		"testAddWithEmptyType" : "afv 5/2/2013 21:36",
-		"testAddWithEmptyUri" : "afv 5/2/2013 21:30" } }
+		"setUp" : "it 5/11/2013 19:06",
+		"testAddWithEmptyDescription" : "it 5/11/2013 19:07",
+		"testAddWithEmptyLicense" : "it 5/11/2013 19:09",
+		"testAddWithEmptyTitle" : "it 5/11/2013 19:09",
+		"testAddWithEmptyType" : "it 5/11/2013 19:09",
+		"testAddWithEmptyUri" : "it 5/11/2013 19:09",
+		"testAddWithSameUri" : "it 5/11/2013 19:13",
+		"testAddWithSameUriSameObject" : "it 5/11/2013 19:20" } }

@@ -2,6 +2,6 @@ as yet unclassified
 testAddWithEmptyName
 	"comment stating purpose of message"
 
-	admin username: 'admin'; password: 'q'; email: 'leo@flodactic.org'; role: 'administrator'; status: 'enabled'.
+	admin username: 'admin'; password: 'q'; email: 'leo@flodactic.org'; withAdminPrivileges; doEnable.
 	
-	self should: [usersManager add: admin.] raise: Exception
+	self should: [usersManager add: admin.] raise: ValidationError

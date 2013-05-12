@@ -4,4 +4,4 @@ testAddWithEmptyTitle
 
 	material uri: 'uri'; description: 'description'; type: 'type'; license: 'license'.
 	
-	self should: [manager add: material.] raise: Exception
+	self should: [manager owner: user add: material] raise: ValidationError.

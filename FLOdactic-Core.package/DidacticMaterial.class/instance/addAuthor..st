@@ -1,4 +1,5 @@
 accessing
 addAuthor: anAuthor
-	author := anAuthor.
+	"author := anAuthor."
+	authors add: (anAuthor name) -> anAuthor.
 	self touch.

@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "afv 5/4/2013 10:55",
-		"tearDown" : "afv 5/4/2013 10:55",
-		"testFailedLoginUsernamePassword" : "afv 5/4/2013 11:02",
-		"testSuccessfulLoginUsernamePassword" : "afv 5/4/2013 11:00" } }
+		"setUp" : "it 5/11/2013 20:02",
+		"tearDown" : "afv 5/10/2013 14:11",
+		"testFailedLoginUsernamePassword" : "it 5/11/2013 19:58",
+		"testSearchUsers" : "it 5/11/2013 21:30",
+		"testSuccessfulLoginUsernamePassword" : "afv 5/10/2013 11:00" } }

@@ -3,18 +3,13 @@ remove: aUsername
 	"Removes from the structure aUsername. Raises errors on:
 	- Non existing aUsername (verified with testEmptyUsername)"
 	
-	| user test msg |
-	test := items includesKey: aUsername.
-	(test) ifTrue: [
-		msg := 'The user exists on the system, removing it...'.
-		Transcript show: msg; crlf.
-		user := items at: aUsername.
-		emailsSet remove: (user email).
-		items removeKey: aUsername.
+	| user |
+	Transcript show: 'Removing *', aUsername, '* from the database'; crlf.
+	
+	user := items at: aUsername ifAbsent: [
+		self error: 'The user does not exists on the system, cannot remove it...'.
+		^ self
 	].
-	(test) ifFalse: [
-		msg := 'The user doesnt exists on the system, cannot remove it...'.
-		Transcript show: msg; crlf.
-		self error: msg
 
-	].
+	items removeKey: aUsername.
+	emailsMap removeKey: (user email) ifAbsent: [].

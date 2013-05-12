@@ -1,0 +1,3 @@
+accessing
+isBlocked
+	^ status = 'blocked'.

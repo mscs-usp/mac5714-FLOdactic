@@ -18,7 +18,9 @@
 		"testmaterial1",
 		"testmaterial2",
 		"testmanager1",
-		"testmaterial3" ],
+		"testmaterial3",
+		"author1",
+		"author2" ],
 	"name" : "DidacticMaterialsManagerTests",
 	"pools" : [
 		 ],

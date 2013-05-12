@@ -1,0 +1,3 @@
+accessing
+isUser
+	^ role = 'user'.

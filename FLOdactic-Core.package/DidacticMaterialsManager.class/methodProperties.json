@@ -3,14 +3,14 @@
 		"singleton" : "afv 5/2/2013 20:04" },
 	"instance" : {
 		"addAll:" : "afv 5/4/2013 11:56",
-		"initialize" : "afv 5/1/2013 21:49",
+		"addTag:" : "afv 5/11/2013 15:41",
+		"initialize" : "afv 5/11/2013 15:50",
 		"items" : "afv 5/6/2013 19:00",
-<<<<<<< HEAD
-		"owner:add:" : "jsa 5/7/2013 06:42",
-=======
-		"owner:add:" : "afv 5/7/2013 05:34",
->>>>>>> 9ef15e00f7b798a55c5b24401f9310bddfc20a5b
-		"remove:" : "afv 5/4/2013 12:32",
+		"owner:add:" : "afv 5/11/2013 21:58",
+		"owner:edit:" : "afv 5/11/2013 19:17",
+		"remove" : "afv 5/10/2013 14:03",
+		"remove:" : "afv 5/11/2013 22:35",
+		"removeAll" : "afv 5/10/2013 14:56",
 		"select:" : "afv 5/4/2013 11:58",
 		"size" : "afv 5/4/2013 10:16",
-		"validate:" : "jsa 5/7/2013 06:28" } }
+		"validate:" : "it 5/11/2013 19:04" } }

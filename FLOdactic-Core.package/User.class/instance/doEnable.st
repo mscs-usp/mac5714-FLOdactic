@@ -1,0 +1,3 @@
+accessing
+doEnable
+	status := 'enabled'.

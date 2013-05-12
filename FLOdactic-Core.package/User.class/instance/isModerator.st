@@ -1,0 +1,3 @@
+accessing
+isModerator
+	^ role = 'moderator'.

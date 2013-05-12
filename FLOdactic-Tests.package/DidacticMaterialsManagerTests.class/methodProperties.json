@@ -2,12 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "afv 5/6/2013 18:14",
-		"tearDown" : "afv 5/6/2013 18:07",
-		"testAddAuthorsAgretation" : "afv 5/4/2013 12:31",
-		"testAddTagsAgretation" : "afv 5/4/2013 12:23",
-		"testAddWithAutomaticAttributes" : "afv 5/4/2013 12:23",
+		"setUp" : "afv 5/10/2013 18:17",
+		"tearDown" : "afv 5/11/2013 23:09",
 		"testDidacticMaterialManagerCounterIncrementsAfterAddingADidacticMaterial" : "afv 5/4/2013 12:25",
 		"testNestedSelectByTitleContains" : "afv 5/6/2013 17:51",
+		"testSelectAuthorsByName" : "afv 5/7/2013 19:54",
 		"testSimpleSelectByLicense" : "afv 5/6/2013 18:14",
 		"testSimpleSelectByUri" : "afv 5/6/2013 17:58" } }

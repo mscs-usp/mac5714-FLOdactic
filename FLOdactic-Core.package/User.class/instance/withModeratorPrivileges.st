@@ -1,0 +1,3 @@
+accessing
+withModeratorPrivileges
+	role := 'moderator'.

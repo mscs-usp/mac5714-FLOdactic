@@ -35,6 +35,6 @@ doLogin: aUsernameString password: aPasswordString
 	].
 	Transcript show: msg; cr.
 	(error) ifTrue: [
-		self error: msg; crlf.
+		PermissionError signal: msg.
 	].
 	^ user.
