@@ -1,0 +1,14 @@
+{
+	"category" : "FLOdactic-Courses",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CourseSimulator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

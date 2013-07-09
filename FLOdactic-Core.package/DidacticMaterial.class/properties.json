@@ -17,8 +17,7 @@
 		"type",
 		"license",
 		"status",
-		"owner",
-		"tagsManager" ],
+		"owner" ],
 	"name" : "DidacticMaterial",
 	"pools" : [
 		 ],

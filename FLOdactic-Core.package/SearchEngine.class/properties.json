@@ -11,7 +11,9 @@
 		"resultsByDescription",
 		"searchResults",
 		"usersManager",
-		"tagsManager" ],
+		"tagsManager",
+		"coursesManager",
+		"authorsManager" ],
 	"name" : "SearchEngine",
 	"pools" : [
 		 ],

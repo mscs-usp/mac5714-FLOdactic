@@ -1,0 +1,15 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"username",
+		"password" ],
+	"name" : "FLOUserSignOnComponent",
+	"pools" : [
+		 ],
+	"super" : "FLOPageComponent",
+	"type" : "normal" }

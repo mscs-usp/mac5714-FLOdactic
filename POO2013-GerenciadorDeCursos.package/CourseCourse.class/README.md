@@ -1,0 +1,1 @@
+'Course consisting of a series of CourseSubjects designed to teach a particular skillset'

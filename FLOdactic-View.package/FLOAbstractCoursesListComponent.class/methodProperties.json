@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"icon" : "it 6/22/2013 10:00",
+		"title" : "it 6/22/2013 10:00" },
+	"instance" : {
+		"canEdit:" : "it 6/22/2013 10:00",
+		"canEnable:" : "it 6/22/2013 10:00",
+		"canRemove:" : "it 6/22/2013 10:00",
+		"createEditComponent:" : "it 6/22/2013 10:02",
+		"createListChildrenComponent:" : "it 6/22/2013 10:02",
+		"enable:" : "it 6/22/2013 12:40",
+		"filterAll" : "it 6/22/2013 11:00",
+		"filterByTag:" : "afv 6/23/2013 02:00",
+		"filterDisabled" : "afv 6/22/2013 17:34",
+		"filterEnabled" : "afv 6/22/2013 17:10",
+		"filterObjectByTag:" : "afv 6/23/2013 02:00",
+		"filterObjectsByOwner:" : "afv 6/23/2013 02:01",
+		"initialize" : "it 6/22/2013 14:21",
+		"list" : "it 6/22/2013 12:45",
+		"remove:" : "it 6/22/2013 14:23",
+		"renderBodyOn:" : "it 6/22/2013 16:54",
+		"renderConfirmRemove:rowId:on:" : "it 6/22/2013 10:00",
+		"renderContentOn:" : "it 6/22/2013 10:21",
+		"renderListRow:rowId:on:" : "it 6/22/2013 13:40",
+		"renderNavOn:" : "it 6/25/2013 02:13",
+		"renderPageHeaderOn:" : "it 6/22/2013 10:17",
+		"search" : "it 6/22/2013 14:20" } }

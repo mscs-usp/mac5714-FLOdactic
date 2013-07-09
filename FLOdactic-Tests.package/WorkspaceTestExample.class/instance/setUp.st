@@ -1,18 +1,7 @@
 as yet unclassified
 setUp
 	"Create the user's interface"
-"	ui01 ifNotNil: [
-		ui01 release.
-	].
-	ui02 ifNotNil: [
-		ui02 release.
-	].
-	ui03 ifNotNil: [
-		ui03 release.
-	].
-	ui04 ifNotNil: [
-		ui04 release.
-	]."
+	self tearDown.
 
 	Transcript show: 'Creating structures...'; crlf.
 	ui01 := FLOdacticFacade new.
@@ -31,16 +20,16 @@ setUp
 	moderator01 := User new.
 	moderator02 := User new.
 	
-	admin01 username: 'admin01'; password: 'q'; name: 'Leonardo Santos'; email: 'admintest@flodactic.org'; withAdminPrivileges; doEnable.
-	moderator01 username: 'mod01'; password: 'q'; name: 'Rodolpho Bustamante'; email: 'mod01test@flodactic.org'; withModeratorPrivileges; doEnable.
-	moderator02 username: 'mod02'; password: 'q'; name: 'Samuel Rodrigues'; email: 'mod02test@flodactic.org'; withModeratorPrivileges; doEnable.
+	admin01 username: 'admin01'; password: 'q'; name: 'Leonardo test'; email: 'admintest@flodactic.org'; withAdminPrivileges; doEnable.
+	moderator01 username: 'mod01'; password: 'q'; name: 'Rodolpho test'; email: 'mod01test@flodactic.org'; withModeratorPrivileges; doEnable.
+	moderator02 username: 'mod02'; password: 'q'; name: 'Samuel test'; email: 'mod02test@flodactic.org'; withModeratorPrivileges; doEnable.
 	
 	"Create regular users objects"
 	albertUser := User new.
 	igorUser := User new.
 	
-	albertUser username: 'albert'; password: 'q'; name: 'Albert De La Fuente'; email: 'albert@ime.usp.br'; withUserPrivileges; doEnable.
-	igorUser username: 'igor'; password: 'q'; name: 'Igor Topcin'; email: 'igor@ime.usp.br'; withUserPrivileges; doEnable.
+	albertUser username: 'albert'; password: 'q'; name: 'Albert De La Fuente'; email: 'albertt@ime.usp.br'; withUserPrivileges; doEnable.
+	igorUser username: 'igor'; password: 'q'; name: 'Igor Topcin'; email: 'igort@ime.usp.br'; withUserPrivileges; doEnable.
 	
 	"didacticMaterialManager := DidacticMaterialsManager singleton."
 	Transcript show: 'Creating didactic materials...'; crlf.
@@ -58,7 +47,7 @@ setUp
 		description: 'A tutorial on how to use an LDAP server on Python';
 		type: 'document';
 		license: 'cc';
-		addAuthor: albertAuthor;
+		addAuthor: 'Albert De La Fuente';
 		addTag: 'Python';
 		addTag: 'Tutorial';
 		addTag: 'LDAP'.

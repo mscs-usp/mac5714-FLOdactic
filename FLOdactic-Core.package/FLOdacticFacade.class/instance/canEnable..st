@@ -10,6 +10,7 @@ canEnable: anObject
 		User not logged in (nil)"
 
 	| result |
-	result := self checkLoggedInOrError.
-	result := loggedUser isAdmin.
+	loggedUser ifNil: [ ^ false ].
+	
+	result := (loggedUser isAdmin) or: (loggedUser isModerator).
 	^ result.

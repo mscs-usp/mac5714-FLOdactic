@@ -1,0 +1,18 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isEditing",
+		"item",
+		"selectedTags",
+		"selectedColaborators",
+		"search" ],
+	"name" : "FLOAbstractEditCourseComponent",
+	"pools" : [
+		 ],
+	"super" : "FLOPageComponent",
+	"type" : "normal" }

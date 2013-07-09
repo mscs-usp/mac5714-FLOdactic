@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"withLogin:password:firstName:lastName:" : "" },
+	"instance" : {
+		"firstName" : "",
+		"firstName:" : "",
+		"initializeWithLogin:password:firstName:lastName:" : "",
+		"lastName" : "",
+		"lastName:" : "",
+		"login" : "",
+		"login:" : "",
+		"password:" : "",
+		"verifyPassword:" : "" } }

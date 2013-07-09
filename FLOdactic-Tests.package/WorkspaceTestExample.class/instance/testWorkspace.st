@@ -2,7 +2,7 @@ as yet unclassified
 testWorkspace
 	"This is an example of a possible use case of FLOdactic."
 
-	| rawSearch filterDidacticMaterialByDescription search filterDidacticMaterialByStatus filterDidacticMaterialByTitle filterDidacticMaterialByType filterDidacticMaterialByTag filterDidacticMaterialByAuthorName rawSearch1 rawSearch2 filterDidacticMaterialByOwnerName filterDidacticMaterialByOwnerEmail filter |
+	| rawSearch search rawSearch1 rawSearch2 |
 
 	"Add special users to the session"
 	ui01 addUser: admin01.
@@ -23,28 +23,29 @@ testWorkspace
 	floogle := SearchEngine new.
 	rawSearch := floogle searchDidacticMaterials: 'Python'.
 	
-	filterDidacticMaterialByAuthorName := floogle filterDidacticMaterialsByAuthorName: 'Albert De La Fuente'.
-	search := floogle addFilter: filterDidacticMaterialByAuthorName.
+	search := floogle addFilter: (Filter didacticMaterialsByAuthorName: 'Albert De La Fuente').
 	self assert: ((search size) = 1).
 	
-	filterDidacticMaterialByDescription := floogle filterDidacticMaterialsByDescription: 'tutorial'.
-	search := floogle addFilter: filterDidacticMaterialByDescription.	
+	floogle := SearchEngine new.
+	rawSearch := floogle searchDidacticMaterials: 'Python'.
+	
+
+	search := floogle addFilter: (Filter didacticMaterialsByDescription: 'tutorial').
 	self assert: ((search size) = 2).
 
-	filterDidacticMaterialByStatus := floogle filterDidacticMaterialsByStatus: 'enabled'.
-	search := floogle addFilter: filterDidacticMaterialByStatus.	
-	self assert: ((search size) = 2).
-
-	filterDidacticMaterialByTitle := floogle filterDidacticMaterialsByTitle: 'Python'.
-	search := floogle addFilter: filterDidacticMaterialByTitle.	
-	self assert: ((search size) = 2).
-
-	filterDidacticMaterialByType := floogle filterDidacticMaterialsByType: 'document'.
-	search := floogle addFilter: filterDidacticMaterialByType.	
+	search := floogle addFilter: (Filter didacticMaterialsByStatus: 'enabled').
 	self assert: ((search size) = 2).
 	
-	filterDidacticMaterialByTag := floogle filterDidacticMaterialsByTag: 'Python'.
-	search := floogle addFilter: filterDidacticMaterialByTag.	
+	search := floogle addFilter: (Filter didacticMaterialsByStatus: 'enabled').
+	self assert: ((search size) = 2).
+
+	search := floogle addFilter: (Filter didacticMaterialsByTitle: 'Python').
+	self assert: ((search size) = 2).
+
+	search := floogle addFilter: (Filter didacticMaterialsByType: 'document').
+	self assert: ((search size) = 2).
+	
+	search := floogle addFilter: (Filter didacticMaterialsByTag: 'Python').
 	self assert: ((search size) = 2).
 	
 	"r1 := dm select: [:doc | ('*' match: doc title)].
@@ -108,12 +109,12 @@ testWorkspace
 	"Igor is editing Alberts material"
 	Transcript show: 'Igor is editing Alberts material';cr.
 "	material02Edited := material02 deepCopy."
-	material02 addAuthor: albertAuthor.
+	material02 addAuthor: 'Albert De La Fuente'.
 	ui04 editDidacticMaterial: material02.
 
 	"Search by author's name"	
 	rawSearch := floogle searchDidacticMaterials: '*'.
-	search := floogle addFilter: filterDidacticMaterialByAuthorName.
+	search := floogle addFilter: (Filter didacticMaterialsByAuthorName: 'Albert De La Fuente').
 	self assert: ((search size) = 2).
 	
 	"Let's edit (update) the user's email address"
@@ -123,29 +124,25 @@ testWorkspace
 
 	"Search a didactic material by the owner's name"
 	rawSearch := floogle searchDidacticMaterials: '*'.
-	filterDidacticMaterialByOwnerName := floogle filterDidacticMaterialsByType: 'Albert'.
-	search := floogle addFilter: filterDidacticMaterialByOwnerName.
+	search := floogle addFilter: (Filter didacticMaterialsByOwnerName: 'Albert').
 	self assert: ((rawSearch size) = 2).
 	
 	"Search a didactic material by the owner's email"
 	rawSearch := floogle searchDidacticMaterials: '*'.
-	filterDidacticMaterialByOwnerEmail := floogle filterDidacticMaterialsByOwnerEmail: 'albert@ime.usp.br'.
-	search := floogle addFilter: filterDidacticMaterialByOwnerEmail.
+	search := floogle addFilter: (Filter didacticMaterialsByOwnerEmail: 'albert@ime.usp.br').
 	self assert: ((rawSearch size) = 2).
 	
 	"Search all users"
 	rawSearch := floogle searchUsers: '*'.
-	self assert: ((rawSearch size) = 5).
+	self assert: ((rawSearch size) >= 5).
 	
 	"Filter only administrators"
-	filter := floogle filterUsersByRole: 'administrator'.
-	search := floogle addFilter: filter.
-	self assert: ((search size) = 1).
+	search := floogle addFilter: (Filter usersByRole: 'administrator').
+	self assert: ((search size) >= 1).
 	
 	"Filter only regular users"
-	filter := floogle filterUsersByRole: 'user'.
-	search := floogle addFilter: filter.
-	self assert: ((search size) = 2).
+	search := floogle addFilter: (Filter usersByRole: 'user').
+	self assert: ((search size) >= 2).
 
 	"Igor tries to remove the didactic material (why!!!!?)"
 	rawSearch1 := floogle searchDidacticMaterials: '*'.
@@ -204,3 +201,58 @@ testWorkspace
 	ui02 removeUser: 'albert'.
 	rawSearch2 := floogle searchUsers: '*'.
 	self assert: ((rawSearch1 size) = (rawSearch2 size + 1)).
+
+"OTHER TESTS FROM IMPORTED IMPORTED COMPONENTS, WE SHOULDN'T BE DOING THIS!!"
+	
+	ui01 addUser: albertUser.
+"	ui01 doLogin: 'albert' password: 'q'."
+	ui01 loggedUser.
+
+	ui01 addMaterial: material01.
+	ui01 addMaterial: material02.
+	
+	"COURSES POPULATION"
+	
+	course01 := CourseCourse new.
+	course01 initializeWithCode: 'MAC' initializeWithName: 'B.S. Computer Science' creator: admin01.
+"		addTag: 'Python';
+		addTag: 'Tutorial';
+		addTag: 'Whatsapp'."
+	course01 title: 'B.S. Computer Science'.
+	course01 description: 'Bachelor of Science in Computer Science course'; doEnable..	
+
+	course02 := CourseCourse new.
+	course02 initializeWithCode: 'MAT' initializeWithName: 'B. Mathematics' creator: admin01.
+	course02 title: 'B.S. Mathematics'.
+	course02 description: 'Bachelor of Mathematics'; doEnable..
+
+	"SUBJECTS POPULATION"
+
+	subject01 := CourseSubject new.
+	subject01 initializeWithCode: 'MAC5777' initializeWithName: 'Cool stuff in Python' creator: admin01.
+	subject01 parent: course01.
+	
+	subject02 := CourseSubject new.
+	subject02 initializeWithCode: 'MAC5888' initializeWithName: 'N-plane complex futile stuff' creator: admin01.
+	subject02 parent: course02.
+	
+	"CLASSES POPULATION"
+
+	class01A := CourseClass withName: 'Class A' creator: admin01.
+	class01A parent: subject01.
+	
+	class01B := CourseClass withName: 'Class B' creator: admin01.
+	class01B parent: subject01.
+	
+	firstDay01 := CourseLesson withName: 'Python LDAP Auth' creator: admin01.
+	firstDay01 parent: class01A.
+
+	"FACADEPOPULATION"
+	
+	ui01 addCourse: course01.
+	ui01 addCourse: course02.
+
+	"LOGOUT"
+	
+	rawSearch := floogle searchCourses: 'Mathematics'.
+	self assert: ((rawSearch size) = 1).

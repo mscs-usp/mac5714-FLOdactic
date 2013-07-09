@@ -8,5 +8,4 @@
 		"testAddWithEmptyTitle" : "it 5/11/2013 19:09",
 		"testAddWithEmptyType" : "it 5/11/2013 19:09",
 		"testAddWithEmptyUri" : "it 5/11/2013 19:09",
-		"testAddWithSameUri" : "it 5/11/2013 19:13",
 		"testAddWithSameUriSameObject" : "it 5/11/2013 19:20" } }

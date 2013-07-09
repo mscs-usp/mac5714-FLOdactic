@@ -1,0 +1,28 @@
+{
+	"category" : "FLOdactic-Courses",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DQM 5/12/2013 22:08",
+	"instvars" : [
+		"code",
+		"name",
+		"title",
+		"description",
+		"creationDate",
+		"modificationDate",
+		"parent",
+		"children",
+		"creator",
+		"owner",
+		"colaborators",
+		"status",
+		"modified",
+		"tags",
+		"didacticMaterials" ],
+	"name" : "CourseUnit",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

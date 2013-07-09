@@ -1,0 +1,17 @@
+{
+	"category" : "FLOdactic-Courses",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Hasher",
+		"Rng" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hash",
+		"salt",
+		"iterations" ],
+	"name" : "UserPassword",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

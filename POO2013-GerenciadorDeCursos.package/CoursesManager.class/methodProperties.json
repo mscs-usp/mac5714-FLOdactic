@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"singleton" : "afv 6/17/2013 12:15" },
+	"instance" : {
+		"findActualItem:" : "it 6/22/2013 13:27",
+		"initialize" : "afv 6/9/2013 20:15",
+		"items" : "it 6/21/2013 22:13",
+		"owner:add:" : "it 6/22/2013 13:56",
+		"owner:edit:" : "it 6/22/2013 14:05",
+		"remove:" : "it 6/22/2013 14:16",
+		"removeAll" : "afv 6/17/2013 14:53",
+		"select:" : "afv 6/19/2013 00:01",
+		"toggleEnable:" : "it 6/22/2013 13:28",
+		"validate:" : "it 6/21/2013 22:08",
+		"validate:forExistingKey:" : "it 6/22/2013 17:33" } }

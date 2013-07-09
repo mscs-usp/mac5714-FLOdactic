@@ -1,0 +1,16 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"searchText",
+		"search",
+		"filter" ],
+	"name" : "FLOMaterialsListComponent",
+	"pools" : [
+		 ],
+	"super" : "FLOPageComponent",
+	"type" : "normal" }

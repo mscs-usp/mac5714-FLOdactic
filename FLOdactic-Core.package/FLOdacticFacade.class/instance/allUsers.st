@@ -1,5 +1,5 @@
 accessing
 allUsers
-	"Returns a copy of all users"
+	"Returns all users"
 
-	^ users veryDeepCopy.
+	^ users items

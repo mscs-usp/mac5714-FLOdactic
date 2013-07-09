@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"go" : "it 6/15/2013 23:05",
+		"initialize" : "it 6/15/2013 22:08",
+		"showSignUpForm" : "it 6/15/2013 22:09",
+		"showSuccessMessage" : "it 6/15/2013 23:18" } }

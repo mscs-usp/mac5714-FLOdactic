@@ -7,8 +7,10 @@ searchTags: aStringExpression
 	
 	searchResults := nil.
 	
-	(self checkNullSearch: aStringExpression) ifFalse: [
-		searchExpression := self wildCardExpression: aStringExpression.
-		searchResults := tagsManager select: [ :tag | (searchExpression match: tag name) ]
-	].
+	(aStringExpression isEmptyOrNil)
+		ifFalse: [
+			searchExpression := self wildCardExpression: aStringExpression.
+			searchResults := tagsManager select: [ :tag | (searchExpression match: tag name) ] ]
+		ifTrue: [
+			searchResults := tagsManager items ].
 	^ searchResults

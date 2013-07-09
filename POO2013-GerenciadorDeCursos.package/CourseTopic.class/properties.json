@@ -1,0 +1,14 @@
+{
+	"category" : "FLOdactic-Courses",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DQM 5/12/2013 22:26",
+	"instvars" : [
+		"moderators" ],
+	"name" : "CourseTopic",
+	"pools" : [
+		 ],
+	"super" : "CourseUnit",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"searchText",
+		"search",
+		"filter" ],
+	"name" : "FLOAbstractCoursesListComponent",
+	"pools" : [
+		 ],
+	"super" : "FLOPageComponent",
+	"type" : "normal" }

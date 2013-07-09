@@ -6,16 +6,18 @@ searchDidacticMaterials: aStringExpression
 	| searchExpression |
 	
 	searchResults := nil.	
-	(self checkNullSearch: aStringExpression) ifFalse: [
-		searchExpression := self wildCardExpression: aStringExpression.
-		searchResults := didacticMaterialsManager select: [
-			:didacticMaterial |
-			(searchExpression match: didacticMaterial title) or:
-			(searchExpression match: didacticMaterial description)
-		].
+	(aStringExpression isEmptyOrNil)
+		ifFalse: [
+			searchExpression := self wildCardExpression: aStringExpression.
+			searchResults := didacticMaterialsManager select: [
+				:didacticMaterial |
+				(searchExpression match: didacticMaterial title) or:
+				(searchExpression match: didacticMaterial description)
+			] ]
+		ifTrue: [
+			searchResults := didacticMaterialsManager items ].
 		
 "		resultsByTitle := (didacticMaterialsManager select: [:didacticMaterial | (searchExpression match: didacticMaterial title)]) items.
 		resultsByDescription := (didacticMaterialsManager select: [:didacticMaterial | (searchExpression match: didacticMaterial description)]) items."
 "		searchResults := (resultsByTitle asOrderedCollection) addAll: (resultsByDescription asOrderedCollection).."
-	].
 	^ searchResults

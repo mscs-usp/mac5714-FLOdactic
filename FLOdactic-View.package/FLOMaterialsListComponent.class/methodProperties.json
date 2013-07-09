@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"icon" : "it 6/16/2013 00:40",
+		"title" : "it 6/16/2013 00:41" },
+	"instance" : {
+		"canEdit:" : "it 6/25/2013 01:59",
+		"canEnable:" : "it 6/25/2013 02:00",
+		"canRemove:" : "it 6/25/2013 02:00",
+		"enable:" : "it 6/25/2013 02:04",
+		"filterAllDidacticMaterials" : "it 6/16/2013 18:09",
+		"filterDidacticMaterialsByAuthor:" : "it 6/21/2013 08:46",
+		"filterDidacticMaterialsByTag:" : "it 6/21/2013 08:07",
+		"filterDidacticMaterialsByType:" : "it 6/21/2013 08:40",
+		"initialize" : "it 6/21/2013 09:33",
+		"removeMaterial:" : "it 6/17/2013 02:47",
+		"renderBodyOn:" : "it 6/25/2013 02:12",
+		"renderConfirmRemove:id:on:" : "it 6/17/2013 02:48",
+		"renderContentOn:" : "it 6/16/2013 18:00",
+		"renderNavOn:" : "it 6/25/2013 02:13",
+		"searchDidacticMaterials" : "it 6/19/2013 10:12",
+		"title" : "it 6/16/2013 18:35" } }

@@ -6,5 +6,7 @@ initialize
 	didacticMaterialsManager := DidacticMaterialsManager singleton.
 	usersManager := UsersManager singleton.
 	tagsManager := TagsManager singleton.
+	coursesManager := CoursesManager singleton.
+	authorsManager := AuthorsManager singleton.
 	
 	searchResults := nil.

@@ -1,0 +1,1 @@
+'CourseSubject representing a series of lessons in an specific domain of a Course'

@@ -1,0 +1,14 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"facade" ],
+	"name" : "FLOSession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }

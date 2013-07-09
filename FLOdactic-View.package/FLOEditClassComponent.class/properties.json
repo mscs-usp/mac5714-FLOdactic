@@ -1,0 +1,15 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"allUsers",
+		"selectedInstructorUser" ],
+	"name" : "FLOEditClassComponent",
+	"pools" : [
+		 ],
+	"super" : "FLOEditCourseChildComponent",
+	"type" : "normal" }

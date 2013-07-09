@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"icon" : "it 6/16/2013 00:42",
+		"title" : "it 6/16/2013 00:36" },
+	"instance" : {
+		"canEdit:" : "it 6/25/2013 02:15",
+		"canEnable:" : "it 6/25/2013 02:15",
+		"canRemove:" : "it 6/25/2013 02:15",
+		"filterAllAdministrators" : "it 6/16/2013 18:06",
+		"filterAllModerators" : "it 6/16/2013 18:06",
+		"filterAllUsers" : "it 6/16/2013 18:05",
+		"initialize" : "it 6/16/2013 18:05",
+		"removeUser:" : "it 6/16/2013 17:54",
+		"renderBodyOn:" : "it 6/25/2013 02:21",
+		"renderConfirmRemoveUser:on:" : "it 6/16/2013 17:35",
+		"renderContentOn:" : "it 6/10/2013 21:54",
+		"renderNavOn:" : "it 6/16/2013 18:06",
+		"searchUsers:" : "it 6/16/2013 13:17",
+		"title" : "it 6/10/2013 21:33",
+		"updateRole:forUser:" : "it 6/25/2013 02:38",
+		"updateUserStatus:" : "it 6/25/2013 02:38" } }

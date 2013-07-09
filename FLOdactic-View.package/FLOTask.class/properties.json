@@ -1,0 +1,14 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLOTask",
+	"pools" : [
+		 ],
+	"super" : "WATask",
+	"type" : "normal" }

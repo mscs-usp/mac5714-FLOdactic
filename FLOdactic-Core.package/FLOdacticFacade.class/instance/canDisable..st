@@ -11,7 +11,8 @@ canDisable: anObject
 		User not logged in (nil)"
 
 	| result isDidacticMaterial isUser |
-	result := self checkLoggedInOrError.
+	loggedUser ifNil: [ ^ false ].
+	
 	result := false.
 	isDidacticMaterial := anObject class = DidacticMaterial.
 	isDidacticMaterial ifTrue: [

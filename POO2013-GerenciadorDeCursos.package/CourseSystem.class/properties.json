@@ -1,0 +1,15 @@
+{
+	"category" : "FLOdactic-Courses",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"admins",
+		"users" ],
+	"name" : "CourseSystem",
+	"pools" : [
+		 ],
+	"super" : "CourseUnit",
+	"type" : "normal" }

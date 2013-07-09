@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"initialize" : "",
+		"withPassword:" : "" },
+	"instance" : {
+		"hash:" : "",
+		"hashString:" : "",
+		"initializeWithPassword:" : "",
+		"initializeWithPassword:salt:iterations:" : "",
+		"verify:" : "DQM 5/13/2013 21:07" } }

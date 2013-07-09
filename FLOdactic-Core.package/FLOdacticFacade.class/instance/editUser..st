@@ -4,12 +4,9 @@ editUser: aNewUser
 	This is the best way we came arround to allow updates, we don't feel it would be nice to pass every
 	property on the same message, so we pass a full object."
 
-	| loggedIn matches user |
-	loggedIn := self loggedInOrRaiseErrorIfNot.
-	loggedIn ifTrue: [
-		matches := (loggedUser username = aNewUser username) or: (self canEdit: aNewUser).
-		matches ifTrue: [
-			user := users items at: (aNewUser username).
-			users items at: (aNewUser username) put: aNewUser.
-		]
-	]
+	self loggedInOrRaiseErrorIfNot.
+	
+	( self canEdit: aNewUser ) ifFalse: [
+		PermissionError signal: 'You do not have permission to update this didactic material.' ].
+
+	users save: aNewUser

@@ -1,0 +1,1 @@
+'Class grouping multiple CourseLessons and participating CourseUsers'

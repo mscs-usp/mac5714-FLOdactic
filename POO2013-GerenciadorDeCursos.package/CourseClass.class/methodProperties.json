@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addUser:" : "",
+		"endDate" : "",
+		"endDate:" : "it 6/29/2013 13:49",
+		"initializeWithName:creator:creationDate:" : "PS 5/13/2013 19:01",
+		"instructor" : "",
+		"instructor:" : "",
+		"instructorByUsername:" : "it 6/25/2013 01:27",
+		"removeUser:" : "",
+		"startDate" : "",
+		"startDate:" : "it 6/29/2013 13:49",
+		"users" : "" } }

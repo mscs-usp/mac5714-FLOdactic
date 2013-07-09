@@ -2,6 +2,8 @@ as yet unclassified
 setUp
 	"Variables setup for the test"
 	
+	self tearDown.
+	
 	author1 := Author new.
 	author1 name: 'Albert De La Fuente'.
 	author2 := Author new.
@@ -17,7 +19,7 @@ setUp
 			description: 'A tutorial on how to use an LDAP server on Python';
 			type: 'document';
 			license: 'cc';
-			addAuthor: author1.
+			addAuthor: 'Albert De La Fuente'.
 			
 	testmaterial2 := DidacticMaterial new.
 	testmaterial2 uri: 'http://www.albertdelafuente.com/doku.php/wiki/devel/python/whatsapp-api';
@@ -25,7 +27,7 @@ setUp
 			description: 'A tutorial on how to use an Whatsapp API on Python';
 			type: 'document';
 			license: 'cc-ca';
-			addAuthor: author1.
+			addAuthor: 'Albert De La Fuente'.
 			
 	testmaterial3 := DidacticMaterial new.
 	testmaterial3 uri: 'https://github.com/poo2013pos/FLOdactic';
@@ -33,7 +35,7 @@ setUp
 			description: 'A Free Libre Open didactic management system made in Smalltalk for the 2013 OOP course at Universidade de Sao Paulo';
 			type: 'Source Code';
 			license: 'GPLv2';
-			addAuthor: author1;
-			addAuthor: author2.
+			addAuthor: 'Albert De La Fuente';
+			addAuthor: 'Igor Topcin'.
 
 	testmanager1 := DidacticMaterialsManager new.

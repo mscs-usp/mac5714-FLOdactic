@@ -1,0 +1,17 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentPage",
+		"defaultPage",
+		"menu",
+		"pages" ],
+	"name" : "FLORootComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

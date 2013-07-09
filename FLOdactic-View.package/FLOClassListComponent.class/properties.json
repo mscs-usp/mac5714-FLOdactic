@@ -1,0 +1,14 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLOClassListComponent",
+	"pools" : [
+		 ],
+	"super" : "FLOCourseChildrenListComponent",
+	"type" : "normal" }

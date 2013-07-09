@@ -16,7 +16,6 @@ initialize
 	contributors := Dictionary new.
 	authors := Dictionary new.
 	tags := Dictionary new.
-	tagsManager := TagsManager singleton.
 "	owners := nil."
 	
 	

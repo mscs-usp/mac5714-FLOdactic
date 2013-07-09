@@ -20,7 +20,8 @@
 		"testmanager1",
 		"testmaterial3",
 		"author1",
-		"author2" ],
+		"author2",
+		"authors" ],
 	"name" : "DidacticMaterialsManagerTests",
 	"pools" : [
 		 ],

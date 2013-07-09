@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "afv 5/10/2013 18:17",
-		"tearDown" : "afv 5/11/2013 23:09",
+		"setUp" : "afv 6/30/2013 11:32",
+		"tearDown" : "afv 6/29/2013 23:43",
 		"testDidacticMaterialManagerCounterIncrementsAfterAddingADidacticMaterial" : "afv 5/4/2013 12:25",
 		"testNestedSelectByTitleContains" : "afv 5/6/2013 17:51",
 		"testSelectAuthorsByName" : "afv 5/7/2013 19:54",

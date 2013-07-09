@@ -9,13 +9,16 @@ searchUsers: aStringExpression
 	
 	searchResults := nil.
 	
-	(self checkNullSearch: aStringExpression) ifFalse: [
-		searchExpression := self wildCardExpression: aStringExpression.
-		searchResults := usersManager select: [
-			:user |
-			(searchExpression match: user name) or:
-			(searchExpression match: user username) or:
-			(searchExpression match: user email)
-		].
-	].
+	(aStringExpression isEmptyOrNil)
+		ifFalse: [
+			searchExpression := self wildCardExpression: aStringExpression.
+			searchResults := usersManager select: [
+				:user |
+				(searchExpression match: user name) or:
+				(searchExpression match: user username) or:
+				(searchExpression match: user email)
+			] ]
+		ifTrue: [
+			searchResults := usersManager items ].
+
 	^ searchResults

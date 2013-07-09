@@ -5,8 +5,14 @@ initialize
 	users := UsersManager singleton.
 	didacticMaterials := DidacticMaterialsManager singleton.
 	tags := TagsManager singleton.
+	courses := CoursesManager singleton.
+	authors := AuthorsManager singleton.
 	
 	search := SearchEngine new.
 	
 	Transcript show: 'Creating users interface...'; crlf.
+	
+	"self populateWithTestData."
+	Transcript show: 'Adding some bogus data...'; crlf.
+	
 	^ self

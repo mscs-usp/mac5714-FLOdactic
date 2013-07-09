@@ -12,7 +12,8 @@ canEdit: anObject
 	Possible errors:
 		User not logged in (nil)"
 
-	| result isMaterial canDelete |
+	| result isMaterial canDelete isCourse |
+	loggedUser ifNil: [ ^ false ].
 	result := false.
 	canDelete := self canRemove: anObject. "handle errors"
 	isMaterial := anObject class = DidacticMaterial.
@@ -23,5 +24,13 @@ canEdit: anObject
 			result := anObject matchesContributorsByUsername: (loggedUser username).
 		].
 	].
-	result := (result) or: (canDelete).
+	isCourse := anObject isKindOf: CourseUnit.
+	isCourse ifTrue: [
+		result := (anObject owner) username = loggedUser username.
+		"Verify if loggedUser is a contributor"
+		result ifFalse: [
+			result := anObject matchesContributorsByUsername: (loggedUser username).
+		].
+	].
+	result := (result) or: (canDelete) or: (loggedUser isAdmin).
 	^ result.

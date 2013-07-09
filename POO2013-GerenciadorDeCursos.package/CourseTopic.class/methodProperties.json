@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addModerator:" : "",
+		"createCourseWithName:creator:" : "PS 5/13/2013 21:48",
+		"initializeWithName:creator:creationDate:" : "",
+		"moderators" : "",
+		"removeModerator:" : "" } }

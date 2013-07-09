@@ -6,6 +6,6 @@ loggedInOrRaiseErrorIfNot
 	test := loggedUser = nil.
 	test ifTrue: [ 
 		msg := 'Not logged in, you must log in first in order to complete that action. No cookies for you my friend!'.
-		self error: msg; cr.
+		PermissionError signal: msg
 	].
 	^ test not.

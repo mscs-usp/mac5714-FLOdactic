@@ -1,0 +1,14 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"form" ],
+	"name" : "FLOEditUserTask",
+	"pools" : [
+		 ],
+	"super" : "FLOTask",
+	"type" : "normal" }

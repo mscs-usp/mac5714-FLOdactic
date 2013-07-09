@@ -1,0 +1,17 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user",
+		"password",
+		"confirmPassword",
+		"updatePassword" ],
+	"name" : "FLOEditUserComponent",
+	"pools" : [
+		 ],
+	"super" : "FLOPageComponent",
+	"type" : "normal" }

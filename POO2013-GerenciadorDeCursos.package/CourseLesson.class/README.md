@@ -1,0 +1,1 @@
+'CourseLesson representing part of a Course through some form of Contents'

@@ -1,0 +1,14 @@
+{
+	"category" : "FLOdactic-Courses",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"items" ],
+	"name" : "CoursesManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

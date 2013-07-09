@@ -1,0 +1,1 @@
+'Base class for all classes in the course description hierarchy'

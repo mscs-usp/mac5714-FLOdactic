@@ -1,0 +1,20 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isEditing",
+		"material",
+		"allTags",
+		"selectedTags",
+		"selectedAuthors",
+		"selectedUsers",
+		"search" ],
+	"name" : "FLOEditMaterialComponent",
+	"pools" : [
+		 ],
+	"super" : "FLOPageComponent",
+	"type" : "normal" }

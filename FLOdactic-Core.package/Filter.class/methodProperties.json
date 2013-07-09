@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"coursesAll" : "afv 6/17/2013 15:27",
+		"coursesByStatus:" : "afv 6/22/2013 16:54",
+		"defaultFilterPolicy:" : "afv 6/8/2013 09:51",
+		"didacticMaterialsAll" : "afv 6/8/2013 10:25",
+		"didacticMaterialsByAuthorName:" : "afv 6/8/2013 10:11",
+		"didacticMaterialsByDescription:" : "afv 6/8/2013 10:07",
+		"didacticMaterialsByOwnerEmail:" : "afv 6/8/2013 10:07",
+		"didacticMaterialsByOwnerName:" : "afv 6/8/2013 10:06",
+		"didacticMaterialsByStatus:" : "afv 6/8/2013 10:07",
+		"didacticMaterialsByTag:" : "afv 6/8/2013 10:06",
+		"didacticMaterialsByTitle:" : "afv 6/8/2013 10:06",
+		"didacticMaterialsByType:" : "afv 6/8/2013 10:06",
+		"isSearchingAString:" : "afv 6/8/2013 10:23",
+		"objectByStatus:" : "afv 6/22/2013 17:09",
+		"objectsAll" : "afv 6/22/2013 17:23",
+		"objectsByOwnerName:" : "afv 6/23/2013 02:00",
+		"objectsByTag:" : "afv 6/23/2013 02:00",
+		"subjectsByStatus" : "afv 6/22/2013 17:08",
+		"usersAll" : "it 6/16/2013 13:13",
+		"usersByRole:" : "afv 6/8/2013 10:05",
+		"wildCardExpression:" : "afv 6/7/2013 12:11" },
+	"instance" : {
+		 } }

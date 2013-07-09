@@ -12,11 +12,22 @@ canRemove: anObject
 	Possible errors:
 		User not logged in (nil)"
 
-	| result isDidacticMaterial isUser |
-	result := self checkLoggedInOrError.
+	| result isDidacticMaterial isUser isCourse |
+	loggedUser ifNil: [ ^ false ].
+	
 	result := false.
 	isDidacticMaterial := anObject class = DidacticMaterial.
 	isDidacticMaterial ifTrue: [
+		result := (anObject owner) username = loggedUser username.
+		result ifFalse: [
+			result := loggedUser isModerator.
+		].
+		result ifFalse: [
+			result := loggedUser isAdmin.
+		]
+	].
+	isCourse := anObject isKindOf: CourseUnit.
+	isCourse ifTrue: [
 		result := (anObject owner) username = loggedUser username.
 		result ifFalse: [
 			result := loggedUser isModerator.

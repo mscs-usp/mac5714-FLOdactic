@@ -9,7 +9,7 @@ searchDidacticMaterials: aStringExpression
 		filter := search filterAll.
 	]
 	ifFalse: [
-		filter := search filterDidacticMaterialsByStatus: 'enabled'.
+		filter := Filter didacticMaterialsByStatus: 'enabled'.
 	].
 	results := search addFilter: filter.
 	^ results

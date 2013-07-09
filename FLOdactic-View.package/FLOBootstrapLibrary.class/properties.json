@@ -1,0 +1,14 @@
+{
+	"category" : "FLOdactic-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FLOBootstrapLibrary",
+	"pools" : [
+		 ],
+	"super" : "WAFileLibrary",
+	"type" : "normal" }

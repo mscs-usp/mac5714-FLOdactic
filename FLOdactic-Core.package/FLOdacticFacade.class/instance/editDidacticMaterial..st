@@ -1,18 +1,10 @@
 accessing
 editDidacticMaterial: aDidacticMaterial 
 	"Edit a didactic material. The owner must match the logged in user"
+
+	self loggedInOrRaiseErrorIfNot.
 	
-	| test |
-	test := self loggedInOrRaiseErrorIfNot.
-	test ifTrue: [
-		test := aDidacticMaterial owner ~= nil. "if it already exists..."
-		test ifTrue: [
-			test := loggedUser username ~= nil.
-			test ifTrue: [
-				test := self canEdit: aDidacticMaterial.
-				test ifTrue: [
-					didacticMaterials owner: loggedUser edit: aDidacticMaterial.
-				]
-			]
-		]
-	]
+	( self canEdit: aDidacticMaterial ) ifFalse: [
+		PermissionError signal: 'You do not have permission to update this didactic material.' ].
+
+	didacticMaterials owner: loggedUser edit: aDidacticMaterial.

@@ -2,18 +2,19 @@ accessing
 addTag: aTagString
 	"Adds aTagString to the tags"
 
-	| tag testIncludedTag |
+	| tag testIncludedTag manager |
+	manager := TagsManager singleton.
 	
-	testIncludedTag := tagsManager includesKey: aTagString.
+	testIncludedTag := manager includesKey: aTagString.
 	"If it exists on the manager, get it"
 	testIncludedTag ifTrue: [
-		tag := tagsManager at: aTagString.
+		tag := manager at: aTagString.
 	]
 	"else, add it to the manager"
 	ifFalse: [
 		tag := TagObject new.
 		tag name: aTagString.
-		tagsManager add: aTagString -> tag.
+		manager add: aTagString -> tag.
 	].
 	"finally add it to the tags object Dictionary itself"
 	tags add: aTagString -> tag.

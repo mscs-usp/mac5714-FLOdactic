@@ -1,0 +1,14 @@
+{
+	"category" : "FLOdactic-Core",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"items" ],
+	"name" : "AuthorsManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
